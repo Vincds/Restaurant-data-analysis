@@ -88,7 +88,7 @@ Because the platform does not provide a stable customer ID, the phone number was
    - Full address (replaced with masked/synthetic equivalents)
 
 **Final Output:**  
-✔️ `customers.xlsx` — anonymized customer master table
+✔️ [Customers](customers_sample.csv) — anonymized customer master table
 
 ---
 
@@ -106,7 +106,7 @@ Since all items ordered were buried inside a long unstructured text field (`prod
 - Avoid Excel formatting corruption in long text fields
 
 **Saved as:**  
-➡️ `orders_with_products_text.xlsx`
+➡️ [Orders with products text](customers_sample.csv)
 
 ---
 
