@@ -282,7 +282,7 @@ The Python script:
    - `transaction_id | invoice_no | quantity | product`
 7. Saves output as:
 
-➡️ [Clean products](Python/sample_clean_products.py)
+➡️ [Clean products](Python/sample_clean_products.csv)
 
 This dataset is then imported into SQL to merge with the official product catalog.
 
@@ -402,6 +402,8 @@ Using an internal CTE `analysis_period`, it:
 - `perc_discounted_orders` = % of orders with discount
 
 This view serves as the starting point for customer segmentation, retention analysis, and CLV-oriented work.
+
+➡️ [Views](SQL/01_views.sql)   
 
 ---
 
