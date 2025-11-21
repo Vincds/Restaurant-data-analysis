@@ -101,7 +101,7 @@ By the end, the dataset behaves like a proper analytics-ready warehouse.
 Structured the cleaned files into normalized tables:
 - `orders`
 - `products`
-- `products_order`
+- `products_catalog`
 - `customers`
 - `zip_code`
 - `promos`
@@ -225,14 +225,14 @@ Since phone number was the only reliable unique identifier:
 5. Dropped all sensitive fields (phone, email)
 
 **Resulting file:**  
-➡️ `excel/customers.xlsx`
+➡️ [Customers](customers_sample.csv)
 
 ### ✔️ 2.5 Prepare Intermediate Product Table
 To feed the Python parsing script:
 - Extracted invoice_no + full products text
 - Saved the intermediate file as:
 
-➡️ `orders_with_products_text.xlsx`
+➡️ [Orders with products text](orders_with_products_text_sample.csv)
 
 This file was later used to generate the normalized product-order table.
 
