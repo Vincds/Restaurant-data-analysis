@@ -106,7 +106,7 @@ Since all items ordered were buried inside a long unstructured text field (`prod
 - Avoid Excel formatting corruption in long text fields
 
 **Saved as:**  
-➡️ [Orders with products text](customers_sample.csv)
+➡️ [Orders with products text](orders_with_products_text_sample.csv)
 
 ---
 
