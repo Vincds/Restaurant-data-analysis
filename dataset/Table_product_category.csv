@@ -1,0 +1,115 @@
+﻿product_id;name;category;diet_type;avg_price
+1;Menú;Menús;Sin Clasificación;16,75
+2;Pollo Tikka Masala;Currys De Pollo;Carne;16,46
+3;Pollo Makhani Butter Chicken;Currys De Pollo;Carne;17,47
+4;PACK PARA 2;Packs Para Compartir;Sin Clasificación;40,39
+5;PACK PARA 3;Packs Para Compartir;Sin Clasificación;62,3
+6;Pollo Korma;Currys De Pollo;Carne;16,83
+7;Pollo Madrás;Currys De Pollo;Carne;16,82
+8;Pollo Tandoori;Tandoor;Carne;16,73
+9;Samosa 1 Unidad;Entrantes;Vegano;4,5
+10;Dal Makhani (Vegetariano);Currys Vegetarianos;Vegetariano;15,73
+11;Channa Masala (Vegano);Currys Veganos;Vegano;16,3
+12;Arroz Basmati Vegano;Arroces;Vegano;5
+13;Pollo Tikka;Tandoor;Carne;18,42
+14;Palak Paneer (Vegetariano);Currys Vegetarianos;Vegetariano;18,3
+15;Curry de Pollo;Currys De Pollo;Carne;16,8
+17;Paneer Makhani (Vegetariano);Currys Vegetarianos;Vegetariano;19,47
+18;Naan;Panes Frescos;Vegetariano;4,5
+19;Rogan Josh;Currys De Cordero;Carne;20,21
+20;Dal Amarillo (Vegano);Currys Veganos;Vegano;15,3
+21;Degustación Tandoor de Pollo (para 1 persona);Degustación Tandoor;Carne;26,77
+22;Alitas de Pollo;Entrantes;Carne;12
+23;Naan de Ajo;Panes Frescos;Vegetariano;5,5
+24;Gambones Kerala;Currys Del Mar;Pescado;19,7
+25;Cordero Madrás;Currys De Cordero;Carne;21,05
+26;Butter Naan;Panes Frescos;Vegetariano;5,5
+27;Pollo Vindaloo;Currys De Pollo;Carne;16,71
+28;Korma de Verduras (Vegano);Currys Veganos;Vegano;17,08
+29;Biryani de Cordero;Arroces;Carne;19,22
+30;Naan de Queso;Panes Frescos;Vegetariano;7,5
+31;Cordero Tikka;Tandoor;Carne;18,98
+32;Pollo Jalfrezi;Currys De Pollo;Carne;16,92
+33;Biryani de Pollo;Arroces;Carne;18,43
+34;Pollo Bhuna;Currys De Pollo;Carne;15,9
+35;Pollo Mango;Currys De Pollo;Carne;17,24
+36;Paneer Tikka (Vegetariano);Tandoor;Vegetariano;17,27
+37;Balti Lamb;Currys De Cordero;Carne;21,4
+38;Pakora de Pollo;Entrantes;Carne;10,24
+39;Seekh Kebab de Cordero;Tandoor;Carne;19,05
+40;Pollo Saag;Currys De Pollo;Carne;16,48
+41;Aloo Saag (Vegano);Currys Veganos;Vegano;13,6
+42;Biryani Vegetariano;Arroces;Vegetariano;16,52
+43;Biryani de Gambas;Arroces;Pescado;19,43
+44;Pappad (vegano);Entrantes;Vegano;8,78
+45;Subzi Mixta (Vegano);Currys Veganos;Vegano;15,45
+46;Lassi de Mango;Postres;Vegetariano;5,59
+47;Paneer Kadai (Vegetariano);Currys Vegetarianos;Vegetariano;19,65
+48;Jalfrezi de Verduras (Vegano);Currys Veganos;Vegano;15,05
+49;Kofta Masala (Vegano);Currys Veganos;Vegano;18,95
+50;Tofu Tikka Masala (Vegano);Currys Veganos;Vegano;18,7
+51;Bhuna Ghost;Currys De Cordero;Carne;20,42
+52;Tandoori Roti (Vegano);Panes Frescos;Vegano;4,5
+53;Arroz al Zeera (Vegano);Arroces;Vegano;5,05
+54;Curry de Mango (Vegetariano);Currys Vegetarianos;Vegetariano;17,26
+55;Seekh Kebab Masala;Currys De Cordero;Carne;19,74
+56;Kalmi Kebab;Tandoor;Carne;16,65
+57;Tofu Korma (Vegano);Currys Veganos;Vegano;20,38
+59;Pollo Karahi;Currys De Pollo;Carne;15,63
+60;Raitha (vegetariano);Acompañamientos;Vegetariano;3,84
+61;Pollo Balti;Currys De Pollo;Carne;16,23
+62;Heura Tikka Masala (Vegano);Currys Veganos;Vegano;17,8
+63;Arroz al Limón Vegano;Arroces;Vegano;5,37
+64;Menú Tandoor;Menús;Sin Clasificación;18,52
+65;Degustación Tandoor de Pollo (para 2 personas);Degustación Tandoor;Carne;45,19
+68;Paneer Naan;Panes Frescos;Vegetariano;7,42
+69;Fast Lunch de Pollo;Menús;Sin Clasificación;12,13
+70;Naan Kashmiri;Panes Frescos;Vegetariano;7,5
+71;Gulab Jamun;Postres;Vegetariano;6,54
+72;Fast Lunch Vegetariano;Menús;Sin Clasificación;12,01
+73;Lachha Paratha;Panes Frescos;Vegetariano;5,5
+74;Heura Korma (Vegano);Currys Veganos;Vegano;17,82
+76;Ensalada India (Vegana);Acompañamientos;Vegano;3,88
+77;Fast Lunch Tandoor;Menús;Sin Clasificación;12,3
+78;Lassi de Mango Coco (vegano);Postres;Vegano;6,9
+79;Albóndigas Palak (Vegano);Currys Veganos;Vegano;17,3
+80;Cobra - Cerveza de la India, botella 0,33l;Bebidas;Sin Clasificación;4,82
+81;Vino Tinto BK! Bon Karma! Sostenible DO Montsant;Vinos;Sin Clasificación;15
+82;Sabudana Vegano;Postres;Vegano;6,46
+83;Mini Lemon Pie;Postres;Vegetariano;5
+85;Coca-Cola Zero, lata 033l;Bebidas;Sin Clasificación;3
+86;Kingfisher - Cerveza de la India, botella 0,33l;Bebidas;Sin Clasificación;4,62
+87;Pudina Paratha;Panes Frescos;Vegetariano;5,34
+88;Champiñones Tikka (vegetariano);Tandoor;Vegetariano;14,63
+90;Mini Banoffee;Postres;Vegetariano;4,77
+92;Vino Blanco BK! Bon Karma! Sostenible DO Montsant;Vinos;Sin Clasificación;15
+95;Heura Palak (Vegano);Currys Veganos;Vegano;18,07
+96;Gajjar Ka Halwa;Postres;Vegetariano;6,9
+97;Cerveza Moritz, lata 0,33l;Bebidas;Sin Clasificación;3
+98;Vino Tinto Aïura (ecológico) lata de 25cl;Vinos;Sin Clasificación;5
+99;Fast Lunch Vegano;Menús;Sin Clasificación;12,15
+100;Coca-Cola, lata 033l;Bebidas;Sin Clasificación;3
+104;Agua en Botella 0,5cl;Bebidas;Sin Clasificación;2,4
+105;Sprite, lata 0,33l;Bebidas;Sin Clasificación;3
+108;Nestea, lata 033l;Bebidas;Sin Clasificación;3
+109;Palak Tofu (Vegano);Currys Veganos;Vegano;14,9
+110;Kulfi de Mango;Postres;Vegetariano;6,9
+111;Indian Masala Pappad (vegano);Entrantes;Vegano;10,5
+112;Pakora (vegano);Entrantes;Vegano;10,5
+113;Fanta Limón, lata 033l;Bebidas;Sin Clasificación;3
+114;Cerveza Moritz 00, lata 0,33l;Bebidas;Sin Clasificación;3
+115;Fanta Naranja, lata 033l;Bebidas;Sin Clasificación;2,63
+116;Zumo Linda Limonada + Jengibre 0,25cl;Bebidas;Sin Clasificación;4,5
+117;Salsa de Mango;Acompañamientos;Vegano;0,5
+118;Salsa de Menta;Acompañamientos;Vegetariano;0,5
+119;Salsa Picante;Acompañamientos;Vegano;0,5
+120;Salsa Roja;Acompañamientos;Vegano;0,5
+145;Biryani de Verduras (vegano);Arroces;Vegano;16,52
+146;Costillas de Cordero;Tandoor;Carne;18,42
+147;Croquetas de Espinacas (vegetariano);Entrantes;Vegetariano;10
+148;Croquetas de Queso (vegetariano);Entrantes;Vegetariano;12
+149;Degustación Tandoor de Carne para 1 persona;Degustación Tandoor;Sin Clasificación;30,77
+150;Degustación Tandoor de Carne para 2 personas;Degustación Tandoor;Sin Clasificación;50,19
+151;Degustación Tandoor de Verduras (para 1 persona);Degustación Tandoor;Vegetariano;19,9
+152;Ensalada;Tandoor;Vegano;9
+153;Salmón Tikka;Tandoor;Pescado;12
