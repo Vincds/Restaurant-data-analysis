@@ -133,7 +133,7 @@ Users switch between views with a navigation button, maintaining a clean, single
 ## 🔗 7. How to Use the Dashboard
 
 👉 **Open the dashboard on Tableau Public:**  
-*(Insert your Tableau Public link here)*
+https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard
 
 ### Instructions:
 1. Select a date range using the filter
