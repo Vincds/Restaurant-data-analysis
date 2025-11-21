@@ -1,56 +1,30 @@
-📘 Restaurant Delivery Data Cleaning & Modeling Pipeline
-Excel · Python · SQL Server · Power BI · Tableau
-<p align="center"> <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=yellow"/> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/> </p>
-📑 Table of Contents
+📘 Data Cleaning & Modeling Pipeline
+Phase 1 of the Restaurant Delivery Analytics Project
 
-Executive Summary
-
-High-Level Architecture
-
-Business Context & Purpose
-
-Project Objectives
-
-What Was Done (High-Level)
-
-Business Impact
-
-Phase 1 — Excel Preparation
-
-Phase 2 — Python Parsing
-
-Phase 3 — SQL Modeling & Analytical Views
-
-Repository Structure
+Excel · Python · SQL Server
 
 ⚡ Executive Summary
 
-This project transforms raw export data from the Last delivery platform into a clean, structured, analytics-ready dataset using Excel, Python, and SQL Server.
+This pipeline transforms raw operational exports from the Last delivery platform into a clean, structured, and analytics-ready dataset.
 
-The pipeline:
+It standardizes timestamps, anonymizes customers, parses unstructured product text, enriches items with official menu metadata, and produces order- and customer-level KPIs.
 
-Anonymizes customers
+Final dataset includes:
 
-Parses unstructured product text
-
-Enriches items using official menu metadata
-
-Normalizes the dataset into a relational model
-
-Creates analytical views powering Power BI & Tableau dashboards
-
-Final curated dataset includes:
-
-4184 total orders
+4184 processed orders
 
 1805 anonymized customers
 
 114 enriched menu items
 
-This dataset powers two downstream projects:
-(1) Power BI Insight Story and (2) Tableau Interactive Dashboard.
+This cleaned dataset powers:
+
+SQL + Power BI Insight Story
+
+Tableau Interactive Dashboard
 
 🔍 High-Level Architecture
+
 Raw Excel Export (Last App)
         ↓
 Excel Cleaning & Anonymization
@@ -65,212 +39,270 @@ Analytical Views (orders_update & customers_kpi)
         ↓
 Used in Power BI & Tableau Projects
 
+
 🧩 1. Business Context & Purpose
 
-Raw exports from Last App contained:
+Raw exports from Last App contain structural and analytical limitations:
 
-Personal customer data
+Customer personal data (phone, email, address)
 
 One long text field storing all products
 
-Missing product granularity
+No product-level granularity
 
 Non-standard timestamps
 
-No standalone customer ID
+No unique customer ID
 
-No product attributes (category, diet type, etc.)
+No product attributes
 
-This limited the ability to analyze:
+Repeated irrelevant operational fields
 
-Sales
+These limitations prevent reliable analysis of:
+
+Sales performance
 
 Customer retention
 
-Discount impact
-
 Menu performance
 
-Behavioral patterns
+Discount effectiveness
 
-This project creates a professional-grade analytical foundation across Excel → Python → SQL.
+Behavior patterns
+
+This pipeline builds a trustworthy data foundation for BI tools.
 
 🎯 2. Project Objectives
 
-✔ Transform messy operational exports
-✔ Protect customer privacy (anonymization)
-✔ Parse unstructured product text
-✔ Enrich product attributes
-✔ Build a relational SQL model
-✔ Create reusable analytical views
-✔ Enable BI dashboards with consistent KPIs
+The pipeline was designed to:
 
-🧹 3. What Was Done (High-Level)
+✔ Transform messy operational exports
+✔ Protect customer privacy through anonymization
+✔ Parse unstructured product descriptions
+✔ Enrich items with official attributes
+✔ Normalize data into a proper relational model
+✔ Create an analytical semantic layer (SQL views)
+✔ Support reliable insights across Power BI & Tableau
+
+🧹 3. What Was Done (High-Level Overview)
 1. Excel Cleaning & Anonymization
 
 Removed irrelevant fields
 
-Standardized timestamps
+Standardized and validated timestamps
 
-Extracted ZIP codes
+Extracted ZIP codes for geographic analysis
 
-Built customer dimension with anonymized customer_id
+Built a complete anonymized customer table
+
+Generated unique customer_id to remove PII
 
 2. Python Parsing of Product Text
 
-Parsed long product strings
+Split long product strings
 
-Extracted quantities
+Extracted quantities (e.g., 2x)
 
-Removed modifiers
+Cleaned modifiers, punctuation, formatting noise
 
-Cleaned product names
+Normalized product names
 
-Output a clean table → product per row
+Produced the products_order mapping table
 
-3. Excel Enrichment
+3. Excel Enrichment with Official Menu Data
 
-Merged products with official menu metadata
+Merged extracted products with validated restaurant menu
 
-Added category, diet type, avg price, availability
+Added category, diet type, stock status, average price
 
-4. SQL Modeling
+Created final products dimension
 
-Created normalized tables:
+4. SQL Server Data Modeling
+
+Normalized tables created:
 
 orders
-
-customers
 
 products
 
 products_order
 
+customers
+
 zip_code
 
 promos
 
-(ERD stored in /docs/erd.png)
+An ER diagram was created to map relationships. (Located in docs/erd.png.)
 
-5. Analytical Views
+5. Analytical Views (Semantic Layer)
+orders_update
 
-orders_update → enriched order dataset
+Adds:
 
-customers_kpi → aggregated behavioral KPIs
+new vs. returning customers
 
-6. Data Limitations
-
-Minor product text truncation
-
-Missing paid modifiers
-
-Expected revenue gap (<10%)
-
-Occasional platform inconsistencies
-
-💼 4. Business Impact
-🟦 Reliable Sales Analytics
-
-Day/week/month/shift performance.
-
-🟩 Customer Insights
-
-Retention, lifecycle, frequency, spend.
-
-🟨 Promotion & Discount Effectiveness
-
-Impact on volume & margin.
-
-🟥 Menu Optimization
-
-Category performance & upselling.
-
-🟪 Faster Dashboarding
-
-Semantic layer ensures consistent KPIs across Power BI & Tableau.
-
-📘 Phase 1 — Raw Data Understanding & Excel Preparation
-
-The raw operational export (orders_raw.xlsx) from Last App included:
-
-Order metadata
-
-Customer PII
-
-Financial metrics (total, discount, fees)
-
-Products field: one long unstructured string
-
-Operational details
-
-Additional supporting files:
-
-Product catalog
+time intelligence: year, month, weekday, shift, day_type
 
 ZIP → neighborhood mapping
 
-Monthly promotions
+financials: gross, net, discount %, delivery fee
 
-Excel Cleaning Steps
-✔ Removed irrelevant columns
+customers_kpi
 
-Dropped static fields (courier name, payment method, etc.).
+Computes:
 
-✔ Selected the correct timestamp
+frequency & lifetime metrics
 
-Used activation_time (true kitchen timestamp).
+retention status
 
-✔ Extracted ZIP codes
+total spent, AOV
 
-Used for neighborhood-based segmentation.
+discount behavior
 
-✔ Built anonymized customer table
+These views ensure consistent KPIs across BI tools.
 
-Deduplicated phone numbers
+6. Data Limitations (Documented)
 
-Assigned new customer_id
+Product text truncation in some rows
 
-Removed all PII
+Missing paid modifiers
+
+Revenue reconstruction gap (expected <10%)
+
+Inconsistencies from platform export
+
+📘 Phase 1 — Raw Data Understanding & Excel Preparation
+
+This phase prepares the raw operational files into structured, privacy-safe Excel datasets.
+
+1. Raw Data Sources
+1.1. orders_raw.xlsx
+
+Included:
+
+Order metadata (invoice_no, activation_time, pickup type…)
+
+Customer details (name, address, phone, email)
+
+Financials (total, discounts, delivery fee, refund)
+
+Product text (all items concatenated in one field)
+
+Operational settings (courier, scheduling, estimated delivery)
+
+1.2. Additional Data Files
+
+Official product list (category, diet type, avg price)
+
+Barcelona ZIP → neighborhood mapping
+
+Monthly promotions applied
+
+These support enrichment and SQL modeling.
+
+2. Excel Cleaning & Standardization
+✔ 2.1 Remove Irrelevant Columns
+
+Dropped fields providing no business value.
+
+✔ 2.2 Select the Correct Timestamp
+
+activation_time used as the business timestamp (accurate kitchen start time).
+
+✔ 2.3 Extract ZIP Code
+
+Pulled from address → used for geographic segmentation.
+
+✔ 2.4 Build Anonymized Customer Table
+
+Steps:
+
+Extract phone numbers
+
+Remove duplicates
+
+Assign a new customer_id
+
+Join back into orders
+
+Remove PII fields
+
 → Output: excel/customers.xlsx
 
-✔ Prepared product text file
+✔ 2.5 Prepare Product Text Table
 
-Created orders_with_products_text.xlsx to feed Python.
+Created intermediate file:
+
+→ orders_with_products_text.xlsx
+
+This feeds Python parsing in Phase 2.
 
 🐍 Phase 2 — Python Parsing of Product Data
 
-Raw product text example:
+Last App stores products like:
 
-"1x PACK PARA 2: 1x Pollo Tikka Masala*, 1x Palak Paneer*; 
-2x Coca-Cola Zero.; 1x Naan.; 1x Alitas de Pollo*"
+"1x PACK PARA 2: 1x Pollo Tikka Masala*, 1x Palak Paneer*;
+ 2x Coca-Cola Zero.; 1x Naan.; 1x Alitas de Pollo*"
 
 
-This format prevents product analytics.
+This structure makes product analytics impossible.
 
-Python Script Actions
+1. Why Parsing Was Needed
 
-Read Excel with invoice_no + product text
+Raw text prevents:
 
-Split items by ;
+Counting items sold
 
-Remove modifiers (:)
+Category analysis
 
-Extract quantities using regex
+Quantity calculations
 
-Normalize product names
+Linking to official menu
 
-Output normalized structure:
+Product KPIs
+
+Parsing solves this.
+
+2. What the Script Does
+
+Reads Excel with invoice_no + raw text
+
+Splits items by ;
+
+Removes modifiers (:)
+
+Extracts quantity (regex (\d+)x)
+
+Normalizes product names
+
+Outputs normalized table:
 
 transaction_id | invoice_no | quantity | product
 
 
-Save → clean_products.csv
+Saves → clean_products.csv
+
+3. Output Files
+python/
+└── clean_products.csv
+
+
+This is used in SQL to build:
+
+products_order
+
+Enriched products dimension
+
+Product KPIs
+
+(You may insert “before vs after” screenshots.)
 
 🗄️ Phase 3 — SQL Modeling & Analytical Views
 
-SQL Server integrates all cleaned sources and computes business logic.
+SQL Server integrates Excel + Python outputs and computes business logic.
 
-1. Tables Loaded into SQL Server
+1. Base Tables Loaded into SQL
 
 dbo.transaction_orders
 
@@ -278,98 +310,82 @@ dbo.customers
 
 dbo.zip_code
 
-Parsed product table
+parsed product table
 
-Product catalog
+product catalog
 
-2. orders_update View
+Two main views were created:
 
-Enriched order-level dataset
+orders
+
+customers_kpi
+
+2. orders View — Enriched Order-Level Dataset
+
+Answers:
+
+When do we sell the most?
+
+Who is new vs. returning?
+
+How often do discounts appear?
+
+Which neighborhoods generate more revenue?
+
+How much revenue is refunded?
 
 Adds:
 
-Customer intelligence
+Temporal attributes (year, month, weekday, shift)
 
-First order date
+Customer status
 
-New vs. returning
+ZIP → neighborhood mapping
 
-Time features
+Monetary standardization (cents → euros)
 
-order_date, year, month
+Financials: discount %, delivery fee, refund
 
-weekday, weekend flag
+This view is the main fact table for BI dashboards.
 
-hour, shift
+3. customers_kpi View — Customer Behavior & Retention
 
-first_day_month
+Supports:
 
-Geography
+One-timer vs. repeat segmentation
 
-ZIP code
-
-Neighborhood mapping
-
-Financial metrics
-
-gross_total
-
-net_total
-
-discounts_applied & %
-
-discount_usage flag
-
-delivery_fee
-
-refunded_amount
-
-Used as the fact table for BI.
-
-3. customers_kpi View
-
-Customer behavior & retention metrics
-
-Computes:
-
-Order patterns
-
-num_orders
-
-first/last order
-
-type_of_customer
-
-Retention
-
-Active / Recent / Sleeping / Inactive
-
-lifetime_months
-
-active_frequency
-
-Financials
-
-total_spent
-
-avg_order_value
-
-total_discount
+Customer value analysis
 
 Discount behavior
 
-perc_discount
+Retention & recency
 
-num_discounted_orders
+Metrics include:
 
-perc_discounted_orders
+num_orders
 
-4. SQL Guardrails & Quality
+first/last order date
 
-NULL handling (NULLIF/COALESCE)
+retention_status (Active/Recent/Sleeping/Inactive)
+
+customer_lifetime_months
+
+active_frequency
+
+total_spent, avg_order_value
+
+discount_usage metrics
+
+This view drives customer segmentation & LTV analysis.
+
+4. Data Quality & Guardrails in SQL
+
+NULLIF + COALESCE to prevent division errors
 
 Timestamp normalization
 
-Monetary rounding (cents → euros)
+Rounding cents to euros
 
-Analysis period encapsulated in view
+Analysis period encapsulated in the view
+
+Consistent KPIs across all BI tools.
