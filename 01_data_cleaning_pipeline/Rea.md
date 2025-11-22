@@ -3,7 +3,6 @@
 
 Transformed 4,184 messy delivery orders into analysis-ready datasets. Parsed unstructured product text, anonymized 1,805 customers, and built reusable KPI views for BI tools.
 ---
-# 🍽️ Restaurant Delivery Data Cleaning Pipeline
 
 I built this pipeline to transform 4,184 messy delivery orders from Last App 
 into analysis-ready datasets. The challenge: all products were buried in one 
