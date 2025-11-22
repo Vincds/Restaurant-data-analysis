@@ -1,0 +1,214 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .table-header { fill: #2c3e50; }
+      .view-header { fill: #27ae60; }
+      .table-box { fill: #ecf0f1; stroke: #2c3e50; stroke-width: 2; }
+      .view-box { fill: #e8f8f5; stroke: #27ae60; stroke-width: 2; }
+      .table-text { font-family: Arial, sans-serif; font-size: 13px; fill: white; font-weight: bold; }
+      .column-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #2c3e50; }
+      .pk { fill: #e74c3c; font-weight: bold; }
+      .fk { fill: #3498db; font-style: italic; }
+      .relationship { stroke: #7f8c8d; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .relationship-dotted { stroke: #95a5a6; stroke-width: 2; fill: none; stroke-dasharray: 5,5; marker-end: url(#arrowhead-dotted); }
+      .label { font-family: Arial, sans-serif; font-size: 10px; fill: #7f8c8d; font-style: italic; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; fill: #2c3e50; font-weight: bold; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 14px; fill: #7f8c8d; }
+      .legend-text { font-family: Arial, sans-serif; font-size: 11px; fill: #2c3e50; }
+    </style>
+    
+    <!-- Arrow markers for relationships -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#7f8c8d" />
+    </marker>
+    <marker id="arrowhead-dotted" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#95a5a6" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="700" y="30" text-anchor="middle" class="title">Restaurant Delivery Data Model</text>
+  <text x="700" y="50" text-anchor="middle" class="subtitle">Base Tables + Analytical Views</text>
+
+  <!-- BASE TABLES SECTION -->
+  
+  <!-- customers table -->
+  <g id="customers">
+    <rect x="50" y="100" width="200" height="90" class="table-box" rx="5"/>
+    <rect x="50" y="100" width="200" height="30" class="table-header" rx="5"/>
+    <text x="150" y="120" text-anchor="middle" class="table-text">customers</text>
+    <text x="60" y="145" class="column-text pk">• customer_id (PK)</text>
+    <text x="60" y="165" class="column-text">• customer_name</text>
+  </g>
+
+  <!-- transaction_orders table -->
+  <g id="transaction_orders">
+    <rect x="320" y="80" width="250" height="240" class="table-box" rx="5"/>
+    <rect x="320" y="80" width="250" height="30" class="table-header" rx="5"/>
+    <text x="445" y="100" text-anchor="middle" class="table-text">transaction_orders</text>
+    <text x="330" y="125" class="column-text pk">• Invoice_nº (PK)</text>
+    <text x="330" y="145" class="column-text fk">• customer_id (FK)</text>
+    <text x="330" y="165" class="column-text">• Activation_time</text>
+    <text x="330" y="185" class="column-text">• customer_name</text>
+    <text x="330" y="205" class="column-text fk">• Zip_Code (FK)</text>
+    <text x="330" y="225" class="column-text">• Total</text>
+    <text x="330" y="245" class="column-text">• Delivery_fee</text>
+    <text x="330" y="265" class="column-text">• Refunded_amount</text>
+    <text x="330" y="285" class="column-text">• Discounts_applied</text>
+  </g>
+
+  <!-- zip_code table -->
+  <g id="zip_code">
+    <rect x="320" y="360" width="200" height="90" class="table-box" rx="5"/>
+    <rect x="320" y="360" width="200" height="30" class="table-header" rx="5"/>
+    <text x="420" y="380" text-anchor="middle" class="table-text">zip_code</text>
+    <text x="330" y="405" class="column-text pk">• zip_code (PK)</text>
+    <text x="330" y="425" class="column-text">• neighborhood</text>
+  </g>
+
+  <!-- products table -->
+  <g id="products">
+    <rect x="640" y="100" width="220" height="130" class="table-box" rx="5"/>
+    <rect x="640" y="100" width="220" height="30" class="table-header" rx="5"/>
+    <text x="750" y="120" text-anchor="middle" class="table-text">products</text>
+    <text x="650" y="145" class="column-text pk">• transaction_id (PK)</text>
+    <text x="650" y="165" class="column-text fk">• invoice_no (FK)</text>
+    <text x="650" y="185" class="column-text">• quantity</text>
+    <text x="650" y="205" class="column-text fk">• product_id (FK)</text>
+  </g>
+
+  <!-- product_catalog table -->
+  <g id="product_catalog">
+    <rect x="920" y="100" width="200" height="130" class="table-box" rx="5"/>
+    <rect x="920" y="100" width="200" height="30" class="table-header" rx="5"/>
+    <text x="1020" y="120" text-anchor="middle" class="table-text">product_catalog</text>
+    <text x="930" y="145" class="column-text pk">• product_id (PK)</text>
+    <text x="930" y="165" class="column-text">• name</text>
+    <text x="930" y="185" class="column-text">• category</text>
+    <text x="930" y="205" class="column-text">• diet_type</text>
+  </g>
+
+  <!-- promos table -->
+  <g id="promos">
+    <rect x="50" y="360" width="200" height="90" class="table-box" rx="5"/>
+    <rect x="50" y="360" width="200" height="30" class="table-header" rx="5"/>
+    <text x="150" y="380" text-anchor="middle" class="table-text">promos</text>
+    <text x="60" y="405" class="column-text pk">• month (PK)</text>
+    <text x="60" y="425" class="column-text">• promo</text>
+  </g>
+
+  <!-- ANALYTICAL VIEWS SECTION -->
+
+  <!-- orders view -->
+  <g id="orders_view">
+    <rect x="50" y="520" width="280" height="330" class="view-box" rx="5"/>
+    <rect x="50" y="520" width="280" height="30" class="view-header" rx="5"/>
+    <text x="190" y="540" text-anchor="middle" class="table-text">orders (VIEW)</text>
+    <text x="60" y="565" class="column-text pk">• invoice_no (PK)</text>
+    <text x="60" y="585" class="column-text fk">• customer_id (FK)</text>
+    <text x="60" y="605" class="column-text">• order_date</text>
+    <text x="60" y="625" class="column-text fk">• first_day_month (FK → promos)</text>
+    <text x="60" y="645" class="column-text">• new_customer</text>
+    <text x="60" y="665" class="column-text">• year, month, weekday</text>
+    <text x="60" y="685" class="column-text">• day_type, hour, shift</text>
+    <text x="60" y="705" class="column-text fk">• zip_code (FK)</text>
+    <text x="60" y="725" class="column-text">• neighborhood</text>
+    <text x="60" y="745" class="column-text">• gross_total, total</text>
+    <text x="60" y="765" class="column-text">• discounts_applied</text>
+    <text x="60" y="785" class="column-text">• perc_discount</text>
+    <text x="60" y="805" class="column-text">• discount_usage</text>
+    <text x="60" y="825" class="column-text">• refunded_amount, delivery_fee</text>
+  </g>
+
+  <!-- customers_kpi view -->
+  <g id="customers_kpi_view">
+    <rect x="390" y="520" width="300" height="330" class="view-box" rx="5"/>
+    <rect x="390" y="520" width="300" height="30" class="view-header" rx="5"/>
+    <text x="540" y="540" text-anchor="middle" class="table-text">customers_kpi (VIEW)</text>
+    <text x="400" y="565" class="column-text pk">• customer_id (PK)</text>
+    <text x="400" y="585" class="column-text">• customer_name</text>
+    <text x="400" y="605" class="column-text">• num_orders</text>
+    <text x="400" y="625" class="column-text">• type_of_customer (One-Timer/Repeating)</text>
+    <text x="400" y="645" class="column-text">• first_order_date, last_order_date</text>
+    <text x="400" y="665" class="column-text">• retention_status (Active/Recent/...)</text>
+    <text x="400" y="685" class="column-text">• customer_lifetime_months</text>
+    <text x="400" y="705" class="column-text">• active_frequency</text>
+    <text x="400" y="725" class="column-text">• total_spent, total_discount</text>
+    <text x="400" y="745" class="column-text">• avg_order_value</text>
+    <text x="400" y="765" class="column-text">• perc_discount</text>
+    <text x="400" y="785" class="column-text">• num_discounted_orders</text>
+    <text x="400" y="805" class="column-text">• perc_discounted_orders</text>
+  </g>
+
+  <!-- RELATIONSHIPS -->
+  
+  <!-- customers to transaction_orders (1:N) -->
+  <path d="M 250 145 L 320 145" class="relationship"/>
+  <text x="270" y="140" class="label">1:N</text>
+
+  <!-- transaction_orders to products (1:N) -->
+  <path d="M 570 150 L 640 150" class="relationship"/>
+  <text x="590" y="145" class="label">1:N</text>
+
+  <!-- products to product_catalog (N:1) -->
+  <path d="M 860 165 L 920 165" class="relationship"/>
+  <text x="875" y="160" class="label">N:1</text>
+
+  <!-- zip_code to transaction_orders (1:N) -->
+  <path d="M 420 360 L 420 320" class="relationship"/>
+  <text x="425" y="340" class="label">1:N</text>
+
+  <!-- transaction_orders to orders view (source) -->
+  <path d="M 445 320 L 445 420 Q 445 450 415 450 L 290 450 Q 260 450 260 480 L 260 520" class="relationship-dotted"/>
+  <text x="300" y="440" class="label">enriches →</text>
+
+  <!-- customers to customers_kpi view (source) -->
+  <path d="M 150 190 L 150 480 Q 150 500 170 500 L 540 500 L 540 520" class="relationship-dotted"/>
+  <text x="240" y="495" class="label">aggregates →</text>
+
+  <!-- promos to orders view (joins on first_day_month) -->
+  <path d="M 150 450 L 150 480 Q 150 500 170 500 L 190 500 L 190 520" class="relationship-dotted"/>
+  <text x="155" y="485" class="label">enriches</text>
+
+  <!-- zip_code to orders view -->
+  <path d="M 320 405 L 290 405 Q 260 405 260 435 L 260 520" class="relationship-dotted"/>
+  <text x="265" y="460" class="label">enriches</text>
+
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="750" y="560" width="600" height="180" fill="white" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+    <text x="1050" y="585" text-anchor="middle" class="table-text" fill="#2c3e50">Legend</text>
+    
+    <!-- Base tables -->
+    <rect x="770" y="600" width="80" height="25" class="table-box" rx="3"/>
+    <rect x="770" y="600" width="80" height="15" class="table-header" rx="3"/>
+    <text x="865" y="615" class="legend-text">Base Table</text>
+    
+    <!-- Views -->
+    <rect x="770" y="640" width="80" height="25" class="view-box" rx="3"/>
+    <rect x="770" y="640" width="80" height="15" class="view-header" rx="3"/>
+    <text x="865" y="655" class="legend-text">Analytical View (SQL)</text>
+    
+    <!-- Relationships -->
+    <line x1="770" y1="680" x2="830" y2="680" class="relationship"/>
+    <text x="865" y="685" class="legend-text">Foreign Key Relationship</text>
+    
+    <line x1="770" y1="710" x2="830" y2="710" class="relationship-dotted"/>
+    <text x="865" y="715" class="legend-text">View Source/Enrichment</text>
+    
+    <!-- Key types -->
+    <text x="1000" y="615" class="legend-text pk">• PK = Primary Key</text>
+    <text x="1000" y="640" class="legend-text fk">• FK = Foreign Key</text>
+    
+    <text x="1000" y="675" class="legend-text" font-size="10">Views enrich base tables with:</text>
+    <text x="1000" y="695" class="legend-text" font-size="10">• Temporal features (shift, day_type)</text>
+    <text x="1000" y="710" class="legend-text" font-size="10">• Customer metrics (retention, CLV)</text>
+    <text x="1000" y="725" class="legend-text" font-size="10">• Geographic context (neighborhood)</text>
+  </g>
+
+  <!-- Footer note -->
+  <text x="700" y="880" text-anchor="middle" class="subtitle" font-size="11">
+    Data flows: Raw Tables (transaction_orders) → Python Parsing (products) → SQL Views (orders, customers_kpi) → BI Tools
+  </text>
+</svg>
