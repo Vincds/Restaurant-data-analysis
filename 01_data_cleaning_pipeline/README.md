@@ -301,7 +301,8 @@ This file is used in Phase 3 (SQL Modeling) to build:
 - Enriched products table
 - Product KPIs
 
-*(Optional) Insert a screenshot showing "before vs after" of raw text → parsed products.*
+![Products text](path/to/image.png)
+
 
 ---
 
