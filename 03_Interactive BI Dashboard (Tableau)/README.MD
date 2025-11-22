@@ -1,5 +1,7 @@
 # 📊 Restaurant Sales & Customer Intelligence Dashboard (Tableau)
+**Tableau**
 
+---
 An interactive Tableau dashboard designed to help a restaurant operating through a food-delivery platform understand its sales performance, promotion effectiveness, and customer behavior.
 
 Users can switch seamlessly between **Sales View** and **Customer View** using a built-in navigation button.
