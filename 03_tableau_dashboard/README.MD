@@ -59,9 +59,8 @@ Users switch between views with a navigation button, maintaining a clean, single
 
 **Screenshots:**
 
-[Sales View].(screenshots/sales_view.png) 
-[Customers View].(screenshots/customer_view.png) 
-
+[Sales View].(screenshots/sales_dashboard.png) 
+[Customers View].(screenshots/customers_dashboard.png) 
 
 ---
 
