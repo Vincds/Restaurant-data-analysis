@@ -301,7 +301,7 @@ This file is used in Phase 3 (SQL Modeling) to build:
 - Enriched products table
 - Product KPIs
 
-![Products text](path/to/image.png)
+![Products text](path/to/orders_with_products_text.png)
 
 
 ---
