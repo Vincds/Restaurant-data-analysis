@@ -33,7 +33,7 @@ These views were created in the preparation pipeline and consumed directly by Ta
 
 ---
 
-## 🛠 2. Data Pipeline Summary (short, non-technical)
+## 🛠 2. Data Pipeline Summary 
 
 - Raw data exported from Last App (one row per order)
 - Cleaned and anonymized in Excel
@@ -59,10 +59,9 @@ Users switch between views with a navigation button, maintaining a clean, single
 
 **Screenshots:**
 
-```
-/screenshots/sales_view.png
-/screenshots/customer_view.png
-```
+[Sales View](screenshots/sales_dashboard.png) - 
+[Customers View](screenshots/customers_dashboard.png) 
+
 
 ---
 
@@ -133,7 +132,7 @@ Users switch between views with a navigation button, maintaining a clean, single
 ## 🔗 7. How to Use the Dashboard
 
 👉 **Open the dashboard on Tableau Public:**  
-*(Insert your Tableau Public link here)*
+https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard
 
 ### Instructions:
 1. Select a date range using the filter
