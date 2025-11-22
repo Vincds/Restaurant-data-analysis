@@ -33,7 +33,7 @@ These views were created in the preparation pipeline and consumed directly by Ta
 
 ---
 
-## 🛠 2. Data Pipeline Summary (short, non-technical)
+## 🛠 2. Data Pipeline Summary 
 
 - Raw data exported from Last App (one row per order)
 - Cleaned and anonymized in Excel
