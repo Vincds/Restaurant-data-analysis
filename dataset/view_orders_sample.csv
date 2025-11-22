@@ -1,0 +1,101 @@
+﻿customer_id;invoice_no;order_date;first_day_month;new_customer;year;month;weekday;day_type;hour;shift;zip_code;neighborhood;gross_total;total;discounts_applied;perc_discount;discount_usage;refunded_amount;delivery_fee
+C0001;LS35713;30/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8032;Horta, El Carmel;42,9;36,9;6;13,99;Yes;NULL;3,9
+C0002;LS35683;30/06/2023;01/06/2023;No;2023;6;5;Weekday;19;Afternoon;8022;Sant Gervasi - La Bonanova, El Putxet i el Farró;59,5;53,5;6;10,08;Yes;NULL;3,9
+C0003;LS35677;30/06/2023;01/06/2023;Yes;2023;6;5;Weekday;19;Afternoon;8004;Poble-sec, La Marina de Port;62,8;56,8;6;9,55;Yes;NULL;3,9
+C0004;LS35649;30/06/2023;01/06/2023;No;2023;6;5;Weekday;14;Morning;8029;Les Corts, La Maternitat i Sant Ramon;50,6;44,6;6;11,86;Yes;NULL;2,9
+C0005;LS35600;29/06/2023;01/06/2023;Yes;2023;6;4;Weekday;19;Afternoon;8002;Barri Gòtic;45,9;39,9;6;13,07;Yes;NULL;2,9
+C0006;LS35572;29/06/2023;01/06/2023;No;2023;6;4;Weekday;14;Morning;8005;Vila Olímpica del Poblenou, El Poblenou;40,7;34,7;6;14,74;Yes;NULL;3,9
+C0007;LS35561;29/06/2023;01/06/2023;No;2023;6;4;Weekday;13;Morning;8009;Dreta de l'Eixample;22,9;22,9;0;0;No;NULL;0
+C0008;LS35541;28/06/2023;01/06/2023;Yes;2023;6;3;Weekday;22;Night;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;43,6;37,6;6;13,76;Yes;NULL;2,9
+C0009;LS35528;28/06/2023;01/06/2023;No;2023;6;3;Weekday;21;Night;8019;El Besòs i el Maresme, Diagonal Mar i el Front Marítim del Poblenou;53,6;53,6;0;0;No;NULL;5,9
+C0010;LS35514;28/06/2023;01/06/2023;No;2023;6;3;Weekday;20;Night;8041;El Guinardó, Camp de l'Arpa del Clot;38,4;32,4;6;15,63;Yes;NULL;2,9
+C0011;LS35511;28/06/2023;01/06/2023;No;2023;6;3;Weekday;20;Night;8009;Dreta de l'Eixample;65,9;59,9;6;9,1;Yes;NULL;0
+C0012;LS35458;28/06/2023;01/06/2023;No;2023;6;3;Weekday;12;Morning;8007;Antiga Esquerra de l'Eixample;17,4;17,4;0;0;No;NULL;0
+C0013;LS35449;27/06/2023;01/06/2023;No;2023;6;2;Weekday;22;Night;8037;Dreta de l'Eixample, Sagrada Família;32;32;0;0;No;NULL;0
+C0014;LS35442;27/06/2023;01/06/2023;No;2023;6;2;Weekday;21;Night;8023;Vallcarca i els Penitents, El Putxet i el Farró;44,4;38,4;6;13,51;Yes;NULL;3,9
+C0011;LS35429;27/06/2023;01/06/2023;Yes;2023;6;2;Weekday;20;Night;8009;Dreta de l'Eixample;41,6;35,6;6;14,42;Yes;NULL;0
+C0015;LS35374;27/06/2023;01/06/2023;Yes;2023;6;2;Weekday;13;Morning;8002;Barri Gòtic;42,4;30,55;11,85;27,95;Yes;NULL;2,9
+C0016;LS35352;26/06/2023;01/06/2023;Yes;2023;6;1;Weekday;21;Night;8024;Vila de Gràcia, El Coll;41,9;35,9;6;14,32;Yes;NULL;2,9
+C0017;LS35261;25/06/2023;01/06/2023;No;2023;6;7;Weekend;22;Night;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;26,9;26,9;0;0;No;NULL;2,9
+C0018;LS35226;25/06/2023;01/06/2023;No;2023;6;7;Weekend;21;Night;8010;Dreta de l'Eixample;35;29;6;17,14;Yes;NULL;0
+C0010;LS35214;25/06/2023;01/06/2023;No;2023;6;7;Weekend;20;Night;8041;El Guinardó, Camp de l'Arpa del Clot;39,4;33,4;6;15,23;Yes;NULL;2,9
+C0019;LS35192;25/06/2023;01/06/2023;Yes;2023;6;7;Weekend;18;Afternoon;8022;Sant Gervasi - La Bonanova, El Putxet i el Farró;54,5;48,5;6;11,01;Yes;NULL;3,9
+C0020;LS35110;24/06/2023;01/06/2023;No;2023;6;6;Weekend;21;Night;8025;Sagrada Família, El Baix Guinardó;37,4;37,4;0;0;No;NULL;2,9
+C0021;LS35094;24/06/2023;01/06/2023;No;2023;6;6;Weekend;20;Night;8024;Vila de Gràcia, El Coll;39,4;33,4;6;15,23;Yes;NULL;2,9
+C0022;LS35089;24/06/2023;01/06/2023;No;2023;6;6;Weekend;20;Night;8024;Vila de Gràcia, El Coll;61,7;55,7;6;9,72;Yes;NULL;2,9
+C0006;LS35004;23/06/2023;01/06/2023;No;2023;6;5;Weekday;21;Night;8005;Vila Olímpica del Poblenou, El Poblenou;43,9;37,9;6;13,67;Yes;NULL;3,9
+C0023;LS34997;23/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8001;El Raval;65,4;46,65;18,75;28,67;Yes;NULL;2,9
+C0024;LS34925;22/06/2023;01/06/2023;No;2023;6;4;Weekday;21;Night;8013;La Sagrada Família, El Fort Pienc;20,5;20,5;0;0;No;NULL;0
+C0025;LS34923;22/06/2023;01/06/2023;No;2023;6;4;Weekday;21;Night;8013;La Sagrada Família, El Fort Pienc;35,8;29,8;6;16,76;Yes;NULL;0
+C0026;LS34875;22/06/2023;01/06/2023;Yes;2023;6;4;Weekday;17;Afternoon;8013;La Sagrada Família, El Fort Pienc;29,8;29,8;0;0;No;NULL;0
+C0027;LS34863;22/06/2023;01/06/2023;Yes;2023;6;4;Weekday;15;Morning;8022;Sant Gervasi - La Bonanova, El Putxet i el Farró;40,7;34,7;6;14,74;Yes;NULL;2,9
+C0028;LS34839;21/06/2023;01/06/2023;No;2023;6;3;Weekday;21;Night;8009;Dreta de l'Eixample;31,4;31,4;0;0;No;NULL;0
+C0029;LS34822;21/06/2023;01/06/2023;Yes;2023;6;3;Weekday;20;Night;8012;Gràcia, La Vila de Gràcia;64,5;58,5;6;9,3;Yes;NULL;2,9
+C0030;LS34821;21/06/2023;01/06/2023;Yes;2023;6;3;Weekday;20;Night;8012;Gràcia, La Vila de Gràcia;39;33;6;15,38;Yes;NULL;0
+C0031;LS34818;21/06/2023;01/06/2023;No;2023;6;3;Weekday;20;Night;8041;El Guinardó, Camp de l'Arpa del Clot;42,5;36,5;6;14,12;Yes;NULL;2,9
+C0032;LS34751;21/06/2023;01/06/2023;No;2023;6;3;Weekday;12;Morning;8005;Vila Olímpica del Poblenou, El Poblenou;21,3;21,3;0;0;No;NULL;3,9
+C0033;LS34729;20/06/2023;01/06/2023;No;2023;6;2;Weekday;20;Night;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;75;69;6;8;Yes;NULL;2,9
+C0034;LS34725;20/06/2023;01/06/2023;No;2023;6;2;Weekday;20;Night;8010;Dreta de l'Eixample;35;29;6;17,14;Yes;NULL;0
+C0035;LS34721;20/06/2023;01/06/2023;Yes;2023;6;2;Weekday;20;Night;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;19,9;14,8;5,1;25,63;Yes;NULL;2,9
+C0036;LS34471;20/06/2023;01/06/2023;Yes;2023;6;2;Weekday;19;Afternoon;8023;Vallcarca i els Penitents, El Putxet i el Farró;68;62;6;8,82;Yes;NULL;2,9
+C0037;LS34711;20/06/2023;01/06/2023;No;2023;6;2;Weekday;19;Afternoon;8019;El Besòs i el Maresme, Diagonal Mar i el Front Marítim del Poblenou;40,3;34,3;6;14,89;Yes;NULL;3,9
+C0038;LS34675;20/06/2023;01/06/2023;No;2023;6;2;Weekday;11;Morning;8026;El Clot, Camp de l'Arpa del Clot;49,9;43,9;6;12,02;Yes;NULL;2,9
+C0039;LS34674;19/06/2023;01/06/2023;Yes;2023;6;1;Weekday;22;Night;8009;Dreta de l'Eixample;19,5;19,5;0;0;No;NULL;0
+C0040;LS34670;19/06/2023;01/06/2023;No;2023;6;1;Weekday;21;Night;8025;Sagrada Família, El Baix Guinardó;48,2;42,2;6;12,45;Yes;NULL;2,9
+C0041;LS34634;19/06/2023;01/06/2023;Yes;2023;6;1;Weekday;19;Afternoon;8005;Vila Olímpica del Poblenou, El Poblenou;40,7;34,7;6;14,74;Yes;NULL;3,9
+C0042;LS34625;19/06/2023;01/06/2023;Yes;2023;6;1;Weekday;18;Afternoon;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;42,5;36,5;6;14,12;Yes;NULL;2,9
+C0043;LS34559;18/06/2023;01/06/2023;Yes;2023;6;7;Weekend;21;Night;8028;Les Corts, Sants-Badal, La Maternitat i Sant Ramon;45,4;39,4;6;13,22;Yes;NULL;5,9
+C0044;LS34545;18/06/2023;01/06/2023;Yes;2023;6;7;Weekend;20;Night;8009;Dreta de l'Eixample;93,8;87,8;6;6,4;Yes;NULL;0
+C0045;LS34477;18/06/2023;01/06/2023;No;2023;6;7;Weekend;14;Morning;8019;El Besòs i el Maresme, Diagonal Mar i el Front Marítim del Poblenou;35,7;35,7;0;0;No;NULL;5,9
+C0046;LS34448;18/06/2023;01/06/2023;Yes;2023;6;7;Weekend;13;Morning;8026;El Clot, Camp de l'Arpa del Clot;42,2;36,2;6;14,22;Yes;NULL;2,9
+C0047;LS34456;18/06/2023;01/06/2023;Yes;2023;6;7;Weekend;12;Morning;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;38,3;32,3;6;15,67;Yes;NULL;2,9
+C0017;LS34442;17/06/2023;01/06/2023;No;2023;6;6;Weekend;22;Night;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;24,9;24,9;0;0;No;NULL;2,9
+C0048;LS34441;17/06/2023;01/06/2023;Yes;2023;6;6;Weekend;22;Night;8009;Dreta de l'Eixample;49,6;43,6;6;12,1;Yes;NULL;0
+C0049;LS34435;17/06/2023;01/06/2023;Yes;2023;6;6;Weekend;21;Night;8029;Les Corts, La Maternitat i Sant Ramon;28,9;28,9;0;0;No;NULL;2,9
+C0050;LS34360;16/06/2023;01/06/2023;No;2023;6;5;Weekday;22;Night;8007;Antiga Esquerra de l'Eixample;61,6;55,6;6;9,74;Yes;NULL;0
+C0051;LS34345;16/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8903;L'Hospitalet de Llobregat;52;38,65;13,35;25,67;Yes;NULL;7,5
+C0010;LS34341;16/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8041;El Guinardó, Camp de l'Arpa del Clot;50,9;44,9;6;11,79;Yes;NULL;2,9
+C0052;LS34311;16/06/2023;01/06/2023;No;2023;6;5;Weekday;19;Afternoon;8021;Sant Gervasi - Galvany;152,3;146,3;6;3,94;Yes;NULL;2,9
+C0053;LS34283;16/06/2023;01/06/2023;Yes;2023;6;5;Weekday;14;Morning;8009;Dreta de l'Eixample;37,3;31,3;6;16,09;Yes;NULL;0
+C0054;LS34253;15/06/2023;01/06/2023;Yes;2023;6;4;Weekday;21;Night;8022;Sant Gervasi - La Bonanova, El Putxet i el Farró;87,1;81,1;6;6,89;Yes;NULL;3,9
+C0002;LS34243;15/06/2023;01/06/2023;Yes;2023;6;4;Weekday;20;Night;8022;Sant Gervasi - La Bonanova, El Putxet i el Farró;44,6;38,6;6;13,45;Yes;NULL;3,9
+C0055;LS34232;15/06/2023;01/06/2023;Yes;2023;6;4;Weekday;20;Night;8005;Vila Olímpica del Poblenou, El Poblenou;44,2;38,2;6;13,57;Yes;NULL;3,9
+C0056;LS34197;15/06/2023;01/06/2023;No;2023;6;4;Weekday;14;Morning;8005;Vila Olímpica del Poblenou, El Poblenou;45,6;39,6;6;13,16;Yes;NULL;2,9
+C0057;LS34195;15/06/2023;01/06/2023;No;2023;6;4;Weekday;13;Morning;8021;Sant Gervasi - Galvany;62,3;56,3;6;9,63;Yes;NULL;2,9
+C0050;LS34192;15/06/2023;01/06/2023;No;2023;6;4;Weekday;13;Morning;8007;Antiga Esquerra de l'Eixample;18,9;18,9;0;0;No;NULL;0
+C0024;LS34173;14/06/2023;01/06/2023;No;2023;6;3;Weekday;21;Night;8013;La Sagrada Família, El Fort Pienc;21,5;21,5;0;0;No;NULL;0
+C0040;LS34172;14/06/2023;01/06/2023;No;2023;6;3;Weekday;21;Night;8025;Sagrada Família, El Baix Guinardó;48,2;42,2;6;12,45;Yes;NULL;2,9
+C0058;LS34168;14/06/2023;01/06/2023;No;2023;6;3;Weekday;21;Night;8009;Dreta de l'Eixample;59;53;6;10,17;Yes;NULL;0
+C0059;LS34162;14/06/2023;01/06/2023;No;2023;6;3;Weekday;20;Night;8013;La Sagrada Família, El Fort Pienc;24,7;24,7;0;0;No;NULL;2,9
+C0060;LS34126;14/06/2023;01/06/2023;Yes;2023;6;3;Weekday;14;Morning;8010;Dreta de l'Eixample;19,4;19,4;0;0;No;NULL;0
+C0013;LS34088;13/06/2023;01/06/2023;No;2023;6;2;Weekday;21;Night;8037;Dreta de l'Eixample, Sagrada Família;38,5;32,5;6;15,58;Yes;NULL;0
+C0061;LS34085;13/06/2023;01/06/2023;Yes;2023;6;2;Weekday;21;Night;8010;Dreta de l'Eixample;59;53;6;10,17;Yes;NULL;0
+C0062;LS34084;13/06/2023;01/06/2023;Yes;2023;6;2;Weekday;21;Night;8027;El Congrés i els Indians, Navas;26,9;26,9;0;0;No;NULL;3,9
+C0063;LS34076;13/06/2023;01/06/2023;Yes;2023;6;2;Weekday;20;Night;8013;La Sagrada Família, El Fort Pienc;141,4;98,98;42,42;30;Yes;NULL;0
+C0050;LS34033;13/06/2023;01/06/2023;No;2023;6;2;Weekday;18;Afternoon;8007;Antiga Esquerra de l'Eixample;47,3;41,3;6;12,68;Yes;NULL;0
+C0006;LS34018;13/06/2023;01/06/2023;No;2023;6;2;Weekday;13;Morning;8005;Vila Olímpica del Poblenou, El Poblenou;44,4;38,4;6;13,51;Yes;NULL;3,9
+C0064;LS33983;12/06/2023;01/06/2023;Yes;2023;6;1;Weekday;21;Night;8005;Vila Olímpica del Poblenou, El Poblenou;32,7;23,76;8,94;27,34;Yes;NULL;2,9
+C0065;LS33929;12/06/2023;01/06/2023;No;2023;6;1;Weekday;13;Morning;8037;Dreta de l'Eixample, Sagrada Família;62,6;56,6;6;9,58;Yes;NULL;0
+C0066;LS33886;11/06/2023;01/06/2023;Yes;2023;6;7;Weekend;21;Night;8013;La Sagrada Família, El Fort Pienc;30,3;22,08;8,22;27,13;Yes;NULL;2,9
+C0067;LS33825;11/06/2023;01/06/2023;No;2023;6;7;Weekend;18;Afternoon;8008;Dreta de l'Eixample;17,9;17,9;0;0;No;NULL;0
+C0021;LS33812;11/06/2023;01/06/2023;Yes;2023;6;7;Weekend;18;Afternoon;8024;Vila de Gràcia, El Coll;38,2;32,2;6;15,71;Yes;NULL;2,9
+C0068;LS33769;11/06/2023;01/06/2023;No;2023;6;7;Weekend;13;Morning;8013;La Sagrada Família, El Fort Pienc;35,8;29,8;6;16,76;Yes;NULL;0
+C0069;LS33763;11/06/2023;01/06/2023;Yes;2023;6;7;Weekend;13;Morning;8013;La Sagrada Família, El Fort Pienc;21,3;15,78;5,52;25,92;Yes;NULL;2,9
+C0070;LS33750;11/06/2023;01/06/2023;Yes;2023;6;7;Weekend;11;Morning;8003;La Barceloneta, Sant Pere, Santa Caterina i la Ribera;46,7;40,7;6;12,85;Yes;NULL;2,9
+C0071;LS33738;10/06/2023;01/06/2023;No;2023;6;6;Weekend;22;Night;8025;Sagrada Família, El Baix Guinardó;47,2;41,2;6;12,71;Yes;NULL;2,9
+C0009;LS33730;10/06/2023;01/06/2023;No;2023;6;6;Weekend;21;Night;8019;El Besòs i el Maresme, Diagonal Mar i el Front Marítim del Poblenou;53,6;47,6;6;11,19;Yes;NULL;5,9
+C0072;LS33720;10/06/2023;01/06/2023;Yes;2023;6;6;Weekend;21;Night;8023;Vallcarca i els Penitents, El Putxet i el Farró;106,1;100,1;6;5,66;Yes;NULL;2,9
+C0073;LS33714;10/06/2023;01/06/2023;Yes;2023;6;6;Weekend;21;Night;8006;Sant Gervasi - Galvany, El Putxet i el Farró;41,9;35,9;6;14,32;Yes;NULL;2,9
+C0074;LS33711;10/06/2023;01/06/2023;Yes;2023;6;6;Weekend;21;Night;8006;Sant Gervasi - Galvany, El Putxet i el Farró;62,4;56,4;6;9,62;Yes;NULL;2,9
+C0075;LS33662;10/06/2023;01/06/2023;Yes;2023;6;6;Weekend;16;Afternoon;8018;El Parc i la Llacuna del Poblenou, La Sagrera;39,2;33,2;6;15,31;Yes;NULL;2,9
+C0059;LS33640;10/06/2023;01/06/2023;Yes;2023;6;6;Weekend;13;Morning;8013;La Sagrada Família, El Fort Pienc;23,7;23,7;0;0;No;NULL;2,9
+C0076;LS33617;09/06/2023;01/06/2023;No;2023;6;5;Weekday;22;Night;8028;Les Corts, Sants-Badal, La Maternitat i Sant Ramon;40,2;34,2;6;14,93;Yes;NULL;3,9
+C0077;LS33608;09/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8026;El Clot, Camp de l'Arpa del Clot;54,6;54,6;0;0;No;NULL;2,9
+C0050;LS33604;09/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8007;Antiga Esquerra de l'Eixample;47,3;41,3;6;12,68;Yes;NULL;0
+C0078;LS33595;09/06/2023;01/06/2023;Yes;2023;6;5;Weekday;21;Night;8013;La Sagrada Família, El Fort Pienc;19,4;19,4;0;0;No;NULL;0
+C0079;LS33588;09/06/2023;01/06/2023;Yes;2023;6;5;Weekday;20;Night;8009;Dreta de l'Eixample;63;57;6;9,52;Yes;NULL;0
+C0080;LS33529;09/06/2023;01/06/2023;No;2023;6;5;Weekday;13;Morning;8035;Horta, Montbau;95,1;89,1;6;6,31;Yes;NULL;3,9
+C0014;LS33464;08/06/2023;01/06/2023;No;2023;6;4;Weekday;21;Night;8023;Vallcarca i els Penitents, El Putxet i el Farró;44,9;38,9;6;13,36;Yes;NULL;3,9
+C0065;LS33391;08/06/2023;01/06/2023;No;2023;6;4;Weekday;14;Morning;8037;Dreta de l'Eixample, Sagrada Família;41,7;35,7;6;14,39;Yes;NULL;0
+C0081;LS33382;08/06/2023;01/06/2023;No;2023;6;4;Weekday;13;Morning;8007;Antiga Esquerra de l'Eixample;18,9;18,9;0;0;No;NULL;0
+C0082;LS33333;07/06/2023;01/06/2023;Yes;2023;6;3;Weekday;20;Night;8005;Vila Olímpica del Poblenou, El Poblenou;68;62;6;8,82;Yes;NULL;3,9

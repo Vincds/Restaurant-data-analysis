@@ -1,0 +1,101 @@
+﻿customer_id;customer_name;num_orders;type_of_customer;first_order_date;last_order_date;retention_status;customer_lifetime_months;active_frequency;total_spent;total_discount;avg_order_value;perc_discount;num_discounted_orders;perc_discounted_orders
+C0515;Aarit;1;One-Timer;21/11/2023;21/11/2023;Inactive;0;NULL;26;0;26;0;0;0
+C0003;Aaron;1;One-Timer;30/06/2023;30/06/2023;Inactive;0;NULL;57;6;57;10;1;100
+C0755;Aaron;1;One-Timer;26/08/2023;26/08/2023;Inactive;0;NULL;32;0;32;0;0;0
+C1587;Aashish ;1;One-Timer;03/09/2024;03/09/2024;Sleeping;0;NULL;35;0;35;0;0;0
+C1655;Abdalla;1;One-Timer;03/07/2024;03/07/2024;Inactive;0;NULL;41;6;41;12;1;100
+C1803;Abdelrahman;1;One-Timer;02/01/2023;02/01/2023;Inactive;0;NULL;41;0;41;0;0;0
+C1120;Abdulaziz;2;Repeating;13/02/2024;13/04/2024;Inactive;2;1;101;24;50;19;2;100
+C0957;Abel;1;One-Timer;30/05/2024;30/05/2024;Inactive;0;NULL;30;20;30;40;1;100
+C0930;Abhishek;1;One-Timer;10/06/2024;10/06/2024;Inactive;0;NULL;40;8;40;17;1;100
+C0892;Abhishri ;1;One-Timer;23/06/2024;23/06/2024;Inactive;0;NULL;42;4;42;9;1;100
+C1086;Abraham;1;One-Timer;20/04/2024;20/04/2024;Inactive;0;NULL;48;18;48;27;1;100
+C1573;Abraham;1;One-Timer;20/09/2024;20/09/2024;Sleeping;0;NULL;22;0;22;0;0;0
+C1426;Achva;1;One-Timer;06/12/2024;06/12/2024;Active;0;NULL;88;0;88;0;0;0
+C0210;Adam;3;Repeating;04/03/2023;12/05/2023;Inactive;2,3;1,3;65;6;22;8;1;33
+C0339;Adam;9;Repeating;05/03/2023;02/11/2024;Recent;20,3;0,4;316;9;35;3;2;22
+C0809;Adil ;1;One-Timer;24/07/2023;24/07/2023;Inactive;0;NULL;37;0;37;0;0;0
+C1449;Adnane;2;Repeating;05/10/2024;29/11/2024;Recent;1,8;1,1;44;10;22;18;1;50
+C0062;Adria;9;Repeating;13/06/2023;16/09/2023;Inactive;3,2;2,8;232;0;26;0;0;0
+C1098;Adria ;3;Repeating;03/01/2024;26/11/2024;Recent;10,9;0,3;106;62;35;37;2;67
+C1554;Adria;1;One-Timer;27/09/2024;27/09/2024;Sleeping;0;NULL;34;0;34;0;0;0
+C1672;Adria;1;One-Timer;11/03/2023;11/03/2023;Inactive;0;NULL;31;11;31;27;1;100
+C0073;Adrian;5;Repeating;10/06/2023;31/10/2023;Inactive;4,8;1;232;60;46;21;4;80
+C0391;Adrian;1;One-Timer;29/12/2023;29/12/2023;Inactive;0;NULL;50;10;50;17;1;100
+C0728;Adrian;3;Repeating;04/07/2023;11/09/2023;Inactive;2,3;1,3;145;49;48;25;3;100
+C0060;Adriana;1;One-Timer;14/06/2023;14/06/2023;Inactive;0;NULL;19;0;19;0;0;0
+C0971;Adriana;1;One-Timer;25/05/2024;25/05/2024;Inactive;0;NULL;31;0;31;0;0;0
+C1185;África ;2;Repeating;08/02/2024;15/03/2024;Inactive;1,2;1,7;77;23;39;23;2;100
+C0719;Agathe ;5;Repeating;10/07/2023;16/09/2023;Inactive;2,3;2,2;86;0;17;0;0;0
+C1106;Agni;1;One-Timer;18/04/2024;18/04/2024;Inactive;0;NULL;43;18;43;29;1;100
+C1423;Agustin;1;One-Timer;06/12/2024;06/12/2024;Active;0;NULL;29;12;29;29;1;100
+C0088;Agustina;1;One-Timer;05/06/2023;05/06/2023;Inactive;0;NULL;18;6;18;25;1;100
+C1105;Ahna;1;One-Timer;18/04/2024;18/04/2024;Inactive;0;NULL;19;0;19;0;0;0
+C0072;aida;3;Repeating;10/06/2023;16/11/2024;Recent;17,5;0,2;186;27;62;13;3;100
+C0341;AIDA;1;One-Timer;31/03/2023;31/03/2023;Inactive;0;NULL;145;0;145;0;0;0
+C1215;Aida;1;One-Timer;03/03/2024;03/03/2024;Inactive;0;NULL;25;10;25;28;1;100
+C0320;Aidan;1;One-Timer;02/04/2023;02/04/2023;Inactive;0;NULL;21;6;21;24;1;100
+C1327;Aidan;1;One-Timer;14/01/2024;14/01/2024;Inactive;0;NULL;29;21;29;41;1;100
+C1535;Aina;1;One-Timer;12/10/2024;12/10/2024;Sleeping;0;NULL;27;11;27;28;1;100
+C1396;Ainara;3;Repeating;27/10/2024;14/12/2024;Active;1,6;1,9;72;6;24;7;1;33
+C0446;Aine;2;Repeating;10/11/2023;12/12/2023;Inactive;1,1;1,8;74;27;37;27;2;100
+C0046;Ainhoa;1;One-Timer;18/06/2023;18/06/2023;Inactive;0;NULL;36;6;36;14;1;100
+C0306;Aitana;1;One-Timer;10/04/2023;10/04/2023;Inactive;0;NULL;24;21;24;47;1;100
+C1161;Aitor;1;One-Timer;24/03/2024;24/03/2024;Inactive;0;NULL;23;9;23;28;1;100
+C1160;Ajay;1;One-Timer;25/03/2024;25/03/2024;Inactive;0;NULL;98;13;98;12;1;100
+C0087;Akira;1;One-Timer;05/06/2023;05/06/2023;Inactive;0;NULL;35;6;35;15;1;100
+C0220;Alaa;1;One-Timer;09/05/2023;09/05/2023;Inactive;0;NULL;62;0;62;0;0;0
+C0074;Alan;2;Repeating;10/06/2023;02/07/2023;Inactive;0,7;2,9;81;27;41;25;2;100
+C1456;Alannah;1;One-Timer;24/11/2024;24/11/2024;Recent;0;NULL;22;0;22;0;0;0
+C0272;Alba;1;One-Timer;17/04/2023;17/04/2023;Inactive;0;NULL;21;0;21;0;0;0
+C0831;Alba;1;One-Timer;13/07/2023;13/07/2023;Inactive;0;NULL;50;0;50;0;0;0
+C0838;Alba;2;Repeating;11/07/2023;17/11/2024;Recent;16,5;0,1;69;23;34;25;2;100
+C0926;Alba;1;One-Timer;11/06/2024;11/06/2024;Inactive;0;NULL;28;11;28;28;1;100
+C1026;Alba;2;Repeating;06/03/2024;05/05/2024;Inactive;2;1;60;10;30;14;1;50
+C0834;Alberic;1;One-Timer;12/07/2023;12/07/2023;Inactive;0;NULL;32;21;32;39;1;100
+C0131;Albert ;2;Repeating;27/05/2023;25/07/2023;Inactive;2;1;48;41;24;46;2;100
+C0735;albert;1;One-Timer;03/09/2023;03/09/2023;Inactive;0;NULL;30;11;30;28;1;100
+C1287;Albert;1;One-Timer;02/02/2024;02/02/2024;Inactive;0;NULL;80;0;80;0;0;0
+C1571;Albert;1;One-Timer;20/09/2024;20/09/2024;Sleeping;0;NULL;58;4;58;6;1;100
+C1704;Albert;1;One-Timer;26/02/2023;26/02/2023;Inactive;0;NULL;35;0;35;0;0;0
+C1793;Albert;1;One-Timer;07/01/2023;07/01/2023;Inactive;0;NULL;63;0;63;0;0;0
+C0158;Alberto;3;Repeating;21/05/2023;21/04/2024;Inactive;11,2;0,3;77;67;26;47;3;100
+C0847;Alberto;1;One-Timer;07/07/2023;07/07/2023;Inactive;0;NULL;58;0;58;0;0;0
+C1643;Alberto ;1;One-Timer;14/07/2024;14/07/2024;Sleeping;0;NULL;45;0;45;0;0;0
+C0890;Albrecht;8;Repeating;18/06/2024;18/12/2024;Active;6,1;1,3;445;66;56;13;5;63
+C1104;Aldric;2;Repeating;18/04/2024;30/11/2024;Recent;7,5;0,3;66;12;33;15;2;100
+C0214;Aleix;1;One-Timer;11/05/2023;11/05/2023;Inactive;0;NULL;47;0;47;0;0;0
+C0715;Aleix;1;One-Timer;17/09/2023;17/09/2023;Inactive;0;NULL;73;18;73;19;1;100
+C1123;Aleix;2;Repeating;12/04/2024;29/09/2024;Sleeping;5,7;0,4;41;0;21;0;0;0
+C1689;Aleix;1;One-Timer;03/03/2023;03/03/2023;Inactive;0;NULL;19;7;19;27;1;100
+C0456;Alejandra;1;One-Timer;10/12/2023;10/12/2023;Inactive;0;NULL;40;10;40;20;1;100
+C0588;Alejandra;3;Repeating;28/07/2023;01/08/2024;Sleeping;12,3;0,2;90;37;30;29;2;67
+C0768;Alejandra;1;One-Timer;18/08/2023;18/08/2023;Inactive;0;NULL;30;12;30;28;1;100
+C0819;Alejandra ;1;One-Timer;20/07/2023;20/07/2023;Inactive;0;NULL;41;21;41;34;1;100
+C0334;Alejandro;2;Repeating;31/03/2023;29/09/2023;Inactive;6,1;0,3;69;9;34;12;1;50
+C0709;Alejandro ;1;One-Timer;19/09/2023;19/09/2023;Inactive;0;NULL;148;37;148;20;1;100
+C0780;Alejandro ;1;One-Timer;11/08/2023;11/08/2023;Inactive;0;NULL;35;14;35;28;1;100
+C0789;Alejandro ;4;Repeating;29/07/2023;04/08/2023;Inactive;0,2;20;187;153;47;45;4;100
+C1181;Alejandro ;2;Repeating;14/01/2024;16/03/2024;Inactive;2,1;1;192;36;96;16;2;100
+C0227;Alessio;3;Repeating;12/03/2023;11/08/2023;Inactive;5,1;0,6;125;35;42;22;2;67
+C0846;Alessio;2;Repeating;07/07/2023;02/02/2024;Inactive;7;0,3;90;6;45;6;1;50
+C1004;Alessio;4;Repeating;30/04/2024;28/12/2024;Active;8,1;0,5;175;19;44;10;1;25
+C0111;Alex;10;Repeating;31/03/2023;13/12/2024;Active;20,8;0,5;482;91;48;16;6;60
+C0578;Alex;2;Repeating;29/10/2023;31/10/2023;Inactive;0,1;20;81;35;40;30;2;100
+C0830;Alex;1;One-Timer;14/07/2023;14/07/2023;Inactive;0;NULL;23;16;23;41;1;100
+C0923;Alex;1;One-Timer;12/06/2024;12/06/2024;Inactive;0;NULL;19;7;19;28;1;100
+C0956;Alex;3;Repeating;24/05/2024;31/10/2024;Sleeping;5,3;0,6;130;51;43;28;2;67
+C1124;Alex;1;One-Timer;12/04/2024;12/04/2024;Inactive;0;NULL;27;11;27;28;1;100
+C1230;Alex;1;One-Timer;27/02/2024;27/02/2024;Inactive;0;NULL;79;33;79;29;1;100
+C1357;Alex ;2;Repeating;03/01/2024;29/08/2024;Sleeping;8;0,3;62;10;31;14;1;50
+C1479;Alex;2;Repeating;24/08/2024;15/11/2024;Recent;2,8;0,7;52;0;26;0;0;0
+C1605;Alex;1;One-Timer;20/08/2024;20/08/2024;Sleeping;0;NULL;34;12;34;26;1;100
+C1618;Alex;1;One-Timer;08/08/2024;08/08/2024;Sleeping;0;NULL;75;0;75;0;0;0
+C1691;Alex;1;One-Timer;03/03/2023;03/03/2023;Inactive;0;NULL;72;0;72;0;0;0
+C0149;Alexander;1;One-Timer;23/05/2023;23/05/2023;Inactive;0;NULL;48;0;48;0;0;0
+C0422;Alexander;2;Repeating;19/12/2023;05/01/2024;Inactive;0,6;3,3;79;25;39;24;2;100
+C0613;Alexander;1;One-Timer;22/10/2023;22/10/2023;Inactive;0;NULL;23;20;23;46;1;100
+C0747;Alexander ;1;One-Timer;30/08/2023;30/08/2023;Inactive;0;NULL;31;12;31;28;1;100
+C1590;Alexander;1;One-Timer;01/09/2024;01/09/2024;Sleeping;0;NULL;116;0;116;0;0;0
+C0500;Alexandra;1;One-Timer;25/11/2023;25/11/2023;Inactive;0;NULL;115;49;115;30;1;100
+C0662;Alexandra ;1;One-Timer;06/10/2023;06/10/2023;Inactive;0;NULL;39;22;39;36;1;100
