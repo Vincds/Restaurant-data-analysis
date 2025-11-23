@@ -84,6 +84,7 @@ No customer ID, no product attributes (category/diet type), non-standard timesta
 ├── screenshots/
 │   ├── orders_with_products_text.png  ← Before parsing
 │   └── clean_products.png             ← After parsing
+│   └── er_diagram.svg             ← ER Diagram
 └── README.md
 ```
 
