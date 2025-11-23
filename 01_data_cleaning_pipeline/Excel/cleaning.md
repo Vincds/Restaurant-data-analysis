@@ -22,11 +22,11 @@ Transform raw operational exports into structured data by:
 ## 📸 Before & After
 
 ### Raw Export (Before)
-![Raw data with PII](01_data_cleaning_pipeline/screenshots/raw_data.png)
+![Raw data with PII](screenshots/raw_data.png)
 *Exposed phone numbers, emails, multiple timestamp fields, unstructured addresses*
 
 ### Cleaned Dataset (After)
-![Clean data with customer_id](01_data_cleaning_pipeline/screenshots/cleaned_orders_table.png)
+![Clean data with customer_id](screenshots/cleaned_orders_table.png)
 *Anonymized IDs, standardized timestamps, extracted ZIP codes, removed PII*
 
 ---
