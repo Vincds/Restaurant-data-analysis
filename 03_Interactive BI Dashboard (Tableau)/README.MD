@@ -160,6 +160,23 @@ This structure mirrors how the restaurant owner reviews performance: "Are we doi
 
 **Note:** Dashboard displays historical data (2023-2024 period). Not real-time due to Tableau Public's CSV-only limitation.
 
+### Data Model Structure
+
+The dashboard connects to 5 CSV files exported from SQL Server:
+
+![Tableau Data Model](screenshots/tableau_data_model.png)
+*Table relationships as configured in Tableau Relationships pane*
+
+**Join logic:**
+- **orders.csv** (primary fact table) connects to:
+  - `customers_kpi.csv` → via `customer_id`
+  - `zip_code.csv` → via `zip_code`  
+  - `promos_shop.csv` → via `first_day_month`
+  - `products_order.csv` → via `invoice_no`
+    - Which then joins to `product_category.csv` via `product_id`
+
+**Note:** These CSVs were exported from the SQL views created in [Project 1](../01_data_cleaning_pipeline/). For detailed table schemas and SQL definitions, see the [Data Model documentation](../01_data_cleaning_pipeline/README.md#data-model).
+
 ### Tableau Techniques Used
 
 **Calculated Fields:**
