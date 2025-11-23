@@ -22,11 +22,11 @@ Transform raw operational exports into structured data by:
 ## 📸 Before & After
 
 ### Raw Export (Before)
-![Raw data with PII](01_data_cleaning_pipeline/screenshots/raw_data.png)
+![Raw data with PII](../screenshots/raw_data.png)
 *Exposed phone numbers, emails, multiple timestamp fields, unstructured addresses*
 
 ### Cleaned Dataset (After)
-![Clean data with customer_id](01_data_cleaning_pipeline/screenshots/cleaned_orders_table.png)
+![Clean data with customer_id](../screenshots/cleaned_orders_table.png)
 *Anonymized IDs, standardized timestamps, extracted ZIP codes, removed PII*
 
 ---
@@ -75,8 +75,6 @@ Estimated_delivery_time: 30/12/2024 21:01  (always +28 min artificial)
 // Converted to datetime format
 =TEXT(Activation_time, "YYYY-MM-DD HH:MM:SS")
 
-// Extracted date only
-=DATE(YEAR(Activation_time), MONTH(Activation_time), DAY(Activation_time))
 ```
 
 ---
@@ -93,7 +91,7 @@ Addresses were unstructured text:
 ```
 
 ### Solution: Flash Fill
-![ZIP extraction using Flash Fill](01_data_cleaning_pipeline/screenshots/zipcode_extraction_flashfill.png)
+![ZIP extraction using Flash Fill](../screenshots/zipcode_extraction_flashfill.png)
 
 **Steps:**
 1. Typed pattern in first 2 rows: `08026`, `08004`
@@ -134,10 +132,10 @@ Clean Data (anonymized)
 ### Before/After Example
 
 **Before (PII exposed):**
-![Customer data with phone](screenshots/intermediate_customers_table.png)
+![Customer data with phone](../screenshots/intermediate_customers_table.png)
 
 **After (anonymized):**
-![Customer data anonymized](screenshots/customers_table.pngg)
+![Customer data anonymized](../screenshots/customers_table.png)
 
 ### Output Files
 - ✅ `customers.csv` → `customer_id` | `customer_name` (no phone/email)
