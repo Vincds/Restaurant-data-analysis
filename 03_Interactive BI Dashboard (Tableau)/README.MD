@@ -272,6 +272,7 @@ The SQL views (`orders`, `customers_kpi`) created in Project 1 feed directly int
 ├── screenshots/
 │   ├── sales_dashboard.png           ← Sales view screenshot
 │   └── customers_dashboard.png       ← Customer view screenshot
+│   └── tableau_data_model.png       ← Data Model Structure
 ├── Restaurant_Shop_Dashboard.twbx    ← Tableau workbook file
 └── README.md                         ← This file
 ```
