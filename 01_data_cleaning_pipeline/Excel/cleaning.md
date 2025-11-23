@@ -75,8 +75,6 @@ Estimated_delivery_time: 30/12/2024 21:01  (always +28 min artificial)
 // Converted to datetime format
 =TEXT(Activation_time, "YYYY-MM-DD HH:MM:SS")
 
-// Extracted date only
-=DATE(YEAR(Activation_time), MONTH(Activation_time), DAY(Activation_time))
 ```
 
 ---
