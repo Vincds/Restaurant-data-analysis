@@ -605,7 +605,7 @@ Implement a simple milestone program: **After 5 orders, unlock 50% off your next
 **Eliminate:**
 - Weekend blanket discounts (customers already pay more)
 - Monthly "promo of the month" cycles
-- Free delivery offers (proven failure)
+
 
 ---
 
@@ -631,22 +631,6 @@ Launch targeted email + SMS campaigns using Last App's contact data:
 
 ---
 
-### 5. Test Weekend Discount Elimination
-
-**The Problem:**  
-Weekend customers have 5.6% higher tickets but same discount usage—leaving money on the table.
-
-**The Solution:**  
-Run 60-day A/B test:
-- **Control group:** Current weekend promos
-- **Test group:** SXGY only, no blanket discounts
-
-**Success criteria:** Volume drops <5%, ticket stays €42+, margin improves €100+/weekend
-
-**If successful:** Eliminate weekend blanket discounts, recapture €2-3K annually  
-**If fails:** Revert with no cost (just learning)
-
----
 
 # 📚 Technical Appendix
 
