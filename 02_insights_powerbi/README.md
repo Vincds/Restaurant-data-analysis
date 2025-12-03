@@ -269,7 +269,7 @@ First cliff (65%) is the killer. But customers who cross it are worth targeting�
 
 ---
 
-### 2.3 The €40-50K Opportunity
+### 2.3 The €30-35K Opportunity
 
 **Lifetime Value Analysis:**
 
@@ -280,19 +280,34 @@ First cliff (65%) is the killer. But customers who cross it are worth targeting�
 
 **Repeating customers worth 4.5x more.**
 
-**Opportunity Scenarios:**
+---
 
-**Improve retention 35% → 50%:**
-- 267 additional customers retained
-- 267 × €149.86 incremental LTV = **€40,012**
+**Realistic Improvement Scenario:**
 
-**Also improve order 2→3 retention 60% → 75%:**
-- 98 additional customers
-- 98 × €106.86 incremental = **€10,472**
+**Target Improvements (achievable with loyalty program):**
+- Retention rate: 35% → **45%** (+10pp)
+- Orders per customer: 2.32 → **3.5** (+1.18 orders)
 
-**Total realistic opportunity: €40-50K annually**
+**Financial Impact:**
+
+Based on 777 annual new customers:
+
+**Retention Improvement:**
+- Current: 777 × 35% = 272 repeat customers
+- Target: 777 × 45% = 350 repeat customers
+- **78 additional repeat customers** × €192.86 LTV = **€15,043**
+
+**Frequency Improvement (existing repeat customers):**
+- 272 customers × 1.18 additional orders × €41.3 avg ticket = **€13,257**
+
+**Total Annual Opportunity: €28,300**
+
+**Implementation:** Launch milestone-based loyalty program (e.g., 50% off after 5 orders) to drive both retention and frequency improvements.
+
 
 ---
+
+
 
 ### 2.4 The Discount Trap
 
@@ -328,9 +343,23 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 
 **85% of customers require intervention.** Only 15% are active/recent.
 
-**Reactivation Opportunity:**
-- Sleeping customers (255): 30% reactivation = **€7.4K potential**
-- Inactive customers (1,282): 5% reactivation = **€6.1K potential**
+---
+
+**Reactivation Opportunity (5% Target):**
+
+**Sleeping + Inactive Customers:**
+- Total dormant: 1,537 customers (255 sleeping + 1,282 inactive)
+- 5% reactivation rate: **77 customers**
+- 77 × €95.72 avg LTV = **€7,370 potential**
+
+**Strategy:** Personalized "we miss you" campaigns with time-limited offers (15-25% off).
+
+---
+
+**Total Chapter 2 Opportunity:**
+- Retention + frequency improvements: **€28,300**
+- Reactivation campaigns: **€7,370**
+- **Combined: €35,670 annually**
 
 **[VIZ: Donut chart with Active/Recent/Sleeping/Inactive segments]**
 
