@@ -187,10 +187,6 @@ This looks like retention success but masks an acquisition crisis. Without new c
 - 255 customers × €43 first order = **€10,965 immediate revenue lost**
 - 255 customers × €95.72 avg LTV = **€24,409 lifetime value lost**
 
-**Combined with 35% retention:**
-- 2024 acquired 777 customers
-- Only 272 will become repeat buyers (35%)
-- **505 will churn after first order (65%)**
 
 **The Burning Platform:** Without fixing retention, even strong acquisition only yields 35% efficiency. But acquisition is declining, creating compounding crisis.
 
@@ -324,17 +320,6 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 
 ---
 
-**Reactivation Opportunity (5% Target):**
-
-**Sleeping + Inactive Customers:**
-- Total dormant: 1,537 customers (255 sleeping + 1,282 inactive)
-- 5% reactivation rate: **77 customers**
-- 77 × €95.72 avg LTV = **€7,370 potential**
-
-**Strategy:** Personalized "we miss you" campaigns with time-limited offers (15-25% off).
-
----
-
 # 📙 Chapter 3: Operational Performance
 
 ## **"Night Shift = 47%, Weekdays Drive Volume"**
@@ -459,25 +444,6 @@ Repeating: 59% use discounts
 **Difference: 3pp (meaningless)**
 
 We've trained customers to never pay full price.
-
----
-
-### 4.4 Strategic Promo Framework
-
-**🏆 Tier 1: SXGY (Permanent)**
-- Why: Increases AOV naturally (€44-47 vs €41)
-- When: Always available
-- Goal: Reward high spenders, drive basket growth
-
-**🎯 Tier 2: 25-30% OFF (Acquisition Only)**
-- Why: Attracts first-timers (62% use discounts)
-- When: First order only
-- Goal: Lower CAC, build trial base
-
-**📊 Tier 3: 2x1 (Tactical)**
-- Why: Proven volume booster
-- When: Weak days (Wednesday) or weak seasons (May-Aug)
-- Goal: Smooth demand, maintain kitchen utilization
 
 ---
 
