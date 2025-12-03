@@ -157,6 +157,15 @@ This looks like retention success but masks an acquisition crisis. Without new c
 
 ### 1.3 Monthly Performance: The August Collapse
 
+**2024 vs 2023 Monthly Trend Overview:**
+
+The year started strong with consistent outperformance through June:
+- **Jan-Apr 2024:** Exceptional growth (+32-35% YoY) - strongest period of the entire dataset
+- **May-Jun 2024:** Modest gains, staying slightly above 2023 levels
+- **July 2024 onwards:** The trend reversed dramatically, with July marking the beginning of sustained underperformance
+
+This shift from consistent growth to decline mid-year signals a fundamental change in business dynamics that requires investigation.
+
 **Best Months:**
 - April 2024: €9,687 (+35.3% YoY) ⭐
 - March 2024: €8,815 (+34.0% YoY)
@@ -165,12 +174,6 @@ This looks like retention success but masks an acquisition crisis. Without new c
 
 **Worst Month:**
 - **August 2024: €3,251 (-42.5% YoY)** 🔴
-
-**Root Cause:** August is structurally weak (Barcelona summer exodus) + 2024's weak promo (free delivery only) = disaster. August 2023 also underperformed but 2024 was 43% worse.
-
-**Seasonality Pattern:**
-- **Strong:** October-May (except Christmas week dip)
-- **Weak:** June-August (summer slump)
 
 **[VIZ: Line chart with 2023 vs 2024 monthly sales + reference line at €7.2K avg]**
 
