@@ -207,25 +207,6 @@ This looks like retention success but masks an acquisition crisis. Without new c
 
 ---
 
-## 🎯 Chapter 1 Takeaways
-
-### ✅ What's Working:
-- Revenue grew (+5.4%)
-- Avg ticket increased (+€2.1)
-- Discount rate improving (-0.4pp)
-
-### 🔴 Critical Issues:
-- Order volume flat (+0.2%)
-- New customers -24.7%
-- August -42.5% YoY
-- Excess discounting €11.7K
-
-### 💰 Opportunity:
-- Fix August: **€2.4K/year**
-- Reduce discount rate to 12%: **€11.7K/year**
-
----
-
 # 📗 Chapter 2: The Retention Crisis
 
 ## **"65% Never Return—But Survivors Show Promise"**
@@ -354,24 +335,6 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 
 ---
 
-## 🎯 Chapter 2 Takeaways
-
-### ✅ What We Know:
-- 65% churn after order 1 (onboarding failure)
-- 60% who make order 2 make order 3 (positive signal)
-- Repeating customers 4.5x more valuable
-- 85% of base needs reactivation
-
-### 🔴 Critical Issues:
-- First-order experience fails 2/3 customers
-- Discounts create dependency, not loyalty
-- Customer lifetime only 2.8 months (should be 12-18)
-
-### 💰 Opportunity:
-**Total: €25-35K annually**
-
----
-
 # 📙 Chapter 3: Operational Performance
 
 ## **"Night Shift = 47%, Weekdays Drive Volume"**
@@ -431,16 +394,6 @@ Weekend customers willing to pay more BUT discount usage identical (16.3% vs 16.
 
 **Insight:** Accept summer decline as structural. Maximize Q1 & Q4 with aggressive acquisition campaigns.
 
----
-
-## 🎯 Chapter 3 Takeaways
-
-### ✅ Operational Strengths:
-- Night shift = 47% of revenue (dinner is core business)
-- Weekdays = 65% of total revenue (volume driver)
-- Weekend avg ticket +5.6% higher (€42.78 vs €40.50)
-- Sunday is strongest single day (€34.4K, highest AOV €42)
-- Friday delivers peak volume (€29.9K, strong dinner demand)
 
 ---
 
@@ -525,20 +478,6 @@ We've trained customers to never pay full price.
 - Why: Proven volume booster
 - When: Weak days (Wednesday) or weak seasons (May-Aug)
 - Goal: Smooth demand, maintain kitchen utilization
-
----
-
-## 🎯 Chapter 4 Takeaways
-
-### ✅ What Works:
-- SXGY promos (€44-47 AOV, best ROI)
-- 2x1 for tactical volume (when needed)
-
-### 🔴 What Fails:
-- 59% discount usage (too high)
-- Discounts don't increase spend (1.2% lift)
-- Over-discounting by €11.7K
-
 
 ---
 
