@@ -548,108 +548,130 @@ We've trained customers to never pay full price.
 
 ## **Priority-Ranked Action Plan**
 
-### 🔴 **Priority 1: Fix First-Order Retention (URGENT)**
+---
 
-**Problem:** 65% never return = €40-50K opportunity
+### 1. Build Brand Trust Beyond Discounts
 
-**Solution:** 30-Day Onboarding Program
-- Day 3: Feedback survey + €50 prize entry
-- Day 7: 10% off second order (7-day expiration)
-- Day 14: Menu discovery email + 15% off
-- Day 30: Final 20% off "last chance"
+**The Core Problem:**  
+The restaurant's unique value proposition—authentic Indian cuisine in a beautifully decorated space with traditional cultural ambiance—is being overshadowed by constant promotional messaging. Customers associate the brand with "waiting for the next deal" rather than quality and experience.
 
-**Expected Results:**
-- Improve 35% → 50% retention (+15pp)
-- 117 additional repeat buyers × €149.86 = **€17,534 value**
+**Recommended Actions:**
+- **Shift marketing focus** from discount-led campaigns to experience-driven content (showcase the ambiance, chef's specialties, customer testimonials)
+- **Emphasize delivery quality** in communications (food presentation, packaging, freshness guarantees)
+- **Introduce non-discount value adds** like free appetizer samplers with first orders, recipe cards, or cultural storytelling about dishes
+- **Position premium items** that showcase culinary expertise (signature dishes, chef's specials) rather than discounting everything equally
 
-**Investment:** €7,412 (email automation + discount cost)  
-**Net Gain:** **€10,122 (58% ROI)**
+**Long-term Goal:** Train customers to order based on craving and quality, not discount availability.
 
 ---
 
-### 🟡 **Priority 2: Restructure Discount Strategy (HIGH IMPACT)**
+### 2. Fix First-Order Retention with Milestone Loyalty Program
 
-**Problem:** 17.6% rate vs 10-12% benchmark = €11.7K excess
+**Problem:**  
+65% of customers never return after their first order, representing the single largest revenue leak in the business.
 
-**Solution:** 3-Tier Architecture
-1. **SXGY permanent** (always on)
-2. **25-30% first order only** (acquisition tool)
-3. **2x1 tactical** (weak days/seasons)
+**Solution:**  
+Launch a **milestone-based loyalty program** that rewards repeat behavior rather than one-time transactions:
 
-**Eliminate:** Weekend blanket promos, 35% OFF, Free Delivery
+**Program Structure:**
+- **Order 1:** Standard experience (potentially with 25% first-order discount for acquisition)
+- **Order 2-4:** Earn points toward rewards, progress notifications ("You're halfway to 50% off!")
+- **Order 5:** Unlock **50% discount** as reward
+- **Order 10:** Unlock exclusive perk (free delivery for life, priority service, or chef's special dish)
 
-**Expected Results:**
-- Reduce rate 17.6% → 13% = **€9,614 margin recapture**
-- SXGY drives +€3-5 AOV = **€8,000 incremental**
+**Why This Works:**
+- Creates **psychological momentum** (customers don't want to "waste" progress toward reward)
+- Trains customers to value **accumulation over waiting** for next blanket promo
+- **Differentiates** orders 2-4 (the danger zone) with visible progress tracking
+- Makes the 50% discount feel **earned, not expected**
 
-**Investment:** €0 (promo restructuring)  
-**Net Gain:** **€17,614**
-
----
-
-### 🟢 **Priority 3: Reactivate Sleeping Customers**
-
-**Problem:** 255 sleeping customers = €7.4K opportunity
-
-**Solution:** "We Miss You" Campaign
-- Segmented: 60-90d (40% conversion) vs 91-180d (20%)
-- Personalized: Reference last order
-- Offer: 15% off (14-day expiration)
-
-**Expected Results:** €6,796 in reactivated LTV
-
-**Investment:** €5,844 (email + discount)  
-**Net Gain:** **€952**
+**Implementation:** Use Last App's email/SMS capabilities to send progress updates and milestone reminders.
 
 ---
 
-### 🟠 **Priority 4: Fix August Seasonality (STRATEGIC)**
+### 3. Restructure Discount Strategy (3-Tier Model)
 
-**Problem:** August -42.5% YoY
+**Problem:**  
+17.6% discount rate (vs 10-12% industry benchmark) with discounts that don't increase basket size (€41.5 vs €41.0 = meaningless 1.2% lift).
 
-**Solution:** "Barcelona Locals" Summer Campaign
-- Target: 150 city-center customers
-- Offer: 20% off + free drink in August
-- Theme: "Beat the heat"
+**Solution: Context-Aware Discount Architecture**
 
-**Expected Results:** €4,428 vs €3,251 baseline = +€1,177
+**Tier 1: SXGY Promos (Permanent Fixture)**
+- **Always available:** "Spend €35, Get €5 off" and "Spend €40, Get €10 off"
+- **Why:** Drives natural basket growth (customers spend €44-47 vs €41 baseline)
+- **Target:** All customers, self-selects high spenders
+- **Result:** Best ROI (€4.6-6.3 revenue per € discounted) with 75%+ adoption
 
-**Investment:** €1,377  
-**Net Gain:** **Break-even** (strategic value: operational stability)
+**Tier 2: 25-30% OFF (First Order Only)**
+- **Use case:** Customer acquisition campaigns on social media, delivery platforms
+- **Why:** 62% of first-timers use discounts—meet them where they are
+- **Restriction:** One-time use, cannot be combined with loyalty program
+- **Goal:** Lower customer acquisition cost, build trial base
+
+**Tier 3: 2x1 Promos (Tactical Volume Driver)**
+- **Deploy on:** Wednesdays (weakest day), summer months (June-August slump)
+- **Why:** Proven volume booster (€4.9K avg monthly sales over 9 months)
+- **Goal:** Smooth demand, maintain kitchen/staff utilization during troughs
+- **Critical:** Do NOT use during peak times (Fri-Sun) where you're cannibalizing full-price demand
+
+**What to Eliminate:**
+- ❌ Weekend blanket discounts (customers already paying €42.78 vs €40.50 weekday)
+- ❌ Monthly "promo of the month" cycle (trains waiting behavior)
+- ❌ Free delivery offers (proven failure: August 2024 generated only €480)
+
+---
+
+### 4. Reactivate Sleeping & Inactive Customers
+
+**Problem:**  
+85% of customer base (1,537 customers) is dormant—255 sleeping (60-180 days) and 1,282 inactive (180+ days).
+
+**Solution: Personalized Reactivation Campaigns**
+
+**For Sleeping Customers (60-180 days):**
+- **Channel:** Email + SMS (Last App provides both)
+- **Message:** "Your favorite [LAST_ORDER_ITEM] is waiting for you, [NAME]"
+- **Offer:** 20% off next order (valid 7 days)
+- **Urgency:** "Valid until [DATE]—don't let it expire!"
+- **Frequency:** Monthly batches, segmented by recency
+
+**For Inactive Customers (180+ days):**
+- **Channel:** SMS-first (higher open rate for win-back)
+- **Message:** "We've missed you! 25% off to rediscover [RESTAURANT NAME]"
+- **New menu callout:** Highlight 2-3 items launched since their last visit
+- **Offer:** 25% off (valid 14 days)
+- **Realistic goal:** 5% reactivation = €7.4K annual value
+
+**Automation Recommendation:**  
+Set up automated campaigns triggered when customers hit 60-day, 90-day, and 180-day inactive thresholds rather than manual monthly sends.
 
 ---
 
-### 🔵 **Priority 5: Weekend Discount Test (LOW-RISK)**
+### 5. Test Weekend Discount Elimination
 
-**Problem:** Weekend +5.6% higher ticket but same discount usage
+**Problem:**  
+Weekend customers show **+5.6% higher avg ticket** (€42.78 vs €40.50) yet receive the **same discount rate** as weekdays (16.3% vs 16.2%), indicating higher willingness to pay being left on the table.
 
-**Solution:** A/B Test
-- Control: Current promo
-- Test: SXGY only (no blanket discount)
-- Duration: 60 days
+**Solution: 60-Day A/B Test**
 
-**Expected Results (if successful):** €3,841 margin gain
+**Test Design:**
+- **Control (50% of customers):** Continue current weekend promo strategy
+- **Test (50% of customers):** SXGY promos only, no blanket discounts
+- **Duration:** 60 days (covers 8-9 weekends for statistical significance)
 
-**Investment:** €0  
-**Risk:** Low (revert if fails)
+**Success Metrics:**
+- Order volume drops <5%
+- Avg ticket remains €42+ (maintain premium positioning)
+- Margin improvement €100+ per weekend
 
----
+**Expected Outcome:**
+If successful, eliminate weekend blanket discounts permanently, recapturing **€2-3K annually** while maintaining volume through SXGY basket-building promos.
 
-## 📊 Total Financial Impact
-
-| Initiative | Annual Value | Investment | Net Gain | Priority |
-|------------|--------------|------------|----------|----------|
-| **Fix retention** | €17.5K | €7.4K | **€10.1K** | 🔴 |
-| **Restructure discounts** | €17.6K | €0 | **€17.6K** | 🟡 |
-| **Reactivate sleeping** | €6.8K | €5.8K | **€1.0K** | 🟢 |
-| **SXGY optimization** | €8-10K | €0 | **€9K** | 🟡 |
-| **Fix August** | €4.4K | €4.6K | **-€0.2K** | 🟠 |
-| **Weekend test** | €3.8K | €0 | **€3.8K** | 🔵 |
-| **TOTAL** | **€58K** | **€18K** | **€40K** | - |
-
-**Recommended Focus:** Priorities 1 & 2 = 75% of value (€27.7K) with lowest complexity.
+**If Test Fails:**  
+Revert immediately with no sunk cost (just learning that weekend customers ARE price-sensitive despite higher tickets).
 
 ---
+
 
 # 📚 Technical Appendix
 
