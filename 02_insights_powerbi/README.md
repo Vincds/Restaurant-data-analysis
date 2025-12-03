@@ -136,26 +136,7 @@ Revenue grew 5.4% but **only 4 additional orders** were placed. Entire growth ca
 
 ---
 
-### 1.2 The Revenue Mix Shift
-
-**2023:** 51% new customers / 49% returning (balanced)  
-**2024:** 36% new customers / 64% returning (retention-heavy)
-
-**Translation:**
-- Lost €10.6K in new customer revenue
-- Gained €15.1K in returning customer revenue
-- Net gain: +€4.5K (the 5.4% growth)
-
-**The Problem:**  
-This looks like retention success but masks an acquisition crisis. Without new customers, the base shrinks in 2025.
-
-**Analogy:** You're keeping current customers happy, but the funnel is drying up. In 12 months, you'll have fewer returning customers from 2024's smaller cohort.
-
-**[VIZ: 100% stacked bar chart showing 2023 vs 2024 revenue composition]**
-
----
-
-### 1.3 Monthly Performance: The August Collapse
+### 1.2 Monthly Performance: The August Collapse
 
 **2024 vs 2023 Monthly Trend Overview:**
 
@@ -179,7 +160,24 @@ This shift from consistent growth to decline mid-year signals a fundamental chan
 **[VIZ: Line chart with 2023 vs 2024 monthly sales + reference line at €7.2K avg]**
 
 ---
+### 1.3 The Revenue Mix Shift
 
+**2023:** 51% new customers / 49% returning (balanced)  
+**2024:** 36% new customers / 64% returning (retention-heavy)
+
+**Translation:**
+- Lost €10.6K in new customer revenue
+- Gained €15.1K in returning customer revenue
+- Net gain: +€4.5K (the 5.4% growth)
+
+**The Problem:**  
+This looks like retention success but masks an acquisition crisis. Without new customers, the base shrinks in 2025.
+
+**Analogy:** You're keeping current customers happy, but the funnel is drying up. In 12 months, you'll have fewer returning customers from 2024's smaller cohort.
+
+**[VIZ: 100% stacked bar chart showing 2023 vs 2024 revenue composition]**
+
+---
 ### 1.4 The Acquisition Crisis
 
 | Year | New Customers | Change |
