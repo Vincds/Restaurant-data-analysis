@@ -244,9 +244,8 @@ First cliff (65%) is the killer. But customers who cross it are worth targeting�
 
 ---
 
-### 2.3 The €30-35K Opportunity
+### 2.3 Lifetime Value Analysis
 
-**Lifetime Value Analysis:**
 
 | Segment | Customers | Avg LTV | Avg Orders |
 |---------|-----------|---------|------------|
@@ -256,32 +255,6 @@ First cliff (65%) is the killer. But customers who cross it are worth targeting�
 **Repeating customers worth 4.5x more.**
 
 ---
-
-**Realistic Improvement Scenario:**
-
-**Target Improvements (achievable with loyalty program):**
-- Retention rate: 35% → **45%** (+10pp)
-- Orders per customer: 2.32 → **3.5** (+1.18 orders)
-
-**Financial Impact:**
-
-Based on 777 annual new customers:
-
-**Retention Improvement:**
-- Current: 777 × 35% = 272 repeat customers
-- Target: 777 × 45% = 350 repeat customers
-- **78 additional repeat customers** × €192.86 LTV = **€15,043**
-
-**Frequency Improvement (existing repeat customers):**
-- 272 customers × 1.18 additional orders × €41.3 avg ticket = **€13,257**
-
-**Total Annual Opportunity: €28,300**
-
-**Implementation:** Launch milestone-based loyalty program (e.g., 50% off after 5 orders) to drive both retention and frequency improvements.
-
-
----
-
 
 
 ### 2.4 The Discount Trap
