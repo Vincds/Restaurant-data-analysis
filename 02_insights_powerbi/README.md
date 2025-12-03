@@ -552,126 +552,101 @@ We've trained customers to never pay full price.
 
 ### 1. Build Brand Trust Beyond Discounts
 
-**The Core Problem:**  
-The restaurant's unique value proposition—authentic Indian cuisine in a beautifully decorated space with traditional cultural ambiance—is being overshadowed by constant promotional messaging. Customers associate the brand with "waiting for the next deal" rather than quality and experience.
+**The Problem:**  
+Constant discounting trains customers to wait for deals rather than order based on quality and experience. The restaurant's unique value—authentic cuisine and traditional Indian ambiance—is overshadowed by promotional messaging.
 
-**Recommended Actions:**
-- **Shift marketing focus** from discount-led campaigns to experience-driven content (showcase the ambiance, chef's specialties, customer testimonials)
-- **Emphasize delivery quality** in communications (food presentation, packaging, freshness guarantees)
-- **Introduce non-discount value adds** like free appetizer samplers with first orders, recipe cards, or cultural storytelling about dishes
-- **Position premium items** that showcase culinary expertise (signature dishes, chef's specials) rather than discounting everything equally
+**The Solution:**  
+Shift marketing focus from discount-led campaigns to experience-driven content. Showcase the decorated space, chef's specialties, and authentic cultural elements. Introduce non-discount value adds like complimentary appetizer samples or cultural storytelling about signature dishes.
 
-**Long-term Goal:** Train customers to order based on craving and quality, not discount availability.
+**Goal:** Train customers to associate the brand with quality and experience, not just the next deal.
 
 ---
 
-### 2. Fix First-Order Retention with Milestone Loyalty Program
+### 2. Launch Milestone Loyalty Program
 
-**Problem:**  
-65% of customers never return after their first order, representing the single largest revenue leak in the business.
+**The Problem:**  
+65% of customers never return after first order—the single largest revenue leak.
 
-**Solution:**  
-Launch a **milestone-based loyalty program** that rewards repeat behavior rather than one-time transactions:
-
-**Program Structure:**
-- **Order 1:** Standard experience (potentially with 25% first-order discount for acquisition)
-- **Order 2-4:** Earn points toward rewards, progress notifications ("You're halfway to 50% off!")
-- **Order 5:** Unlock **50% discount** as reward
-- **Order 10:** Unlock exclusive perk (free delivery for life, priority service, or chef's special dish)
+**The Solution:**  
+Implement a simple milestone program: **After 5 orders, unlock 50% off your next order.**
 
 **Why This Works:**
-- Creates **psychological momentum** (customers don't want to "waste" progress toward reward)
-- Trains customers to value **accumulation over waiting** for next blanket promo
-- **Differentiates** orders 2-4 (the danger zone) with visible progress tracking
-- Makes the 50% discount feel **earned, not expected**
+- Creates psychological momentum (customers track progress toward reward)
+- Makes the discount feel earned, not expected
+- Encourages orders 2-5 (the critical retention window) with visible progress
+- Reduces dependency on constant promotions
 
-**Implementation:** Use Last App's email/SMS capabilities to send progress updates and milestone reminders.
+**Implementation:** Use Last App's email/SMS to send progress updates ("3 more orders to unlock 50% off!").
 
 ---
 
-### 3. Restructure Discount Strategy (3-Tier Model)
+### 3. Restructure Discount Strategy
 
-**Problem:**  
-17.6% discount rate (vs 10-12% industry benchmark) with discounts that don't increase basket size (€41.5 vs €41.0 = meaningless 1.2% lift).
+**The Problem:**  
+17.6% discount rate (vs 10-12% benchmark) with no basket size impact (€41.5 vs €41.0 = meaningless).
 
-**Solution: Context-Aware Discount Architecture**
+**The Solution: 3-Tier Model**
 
-**Tier 1: SXGY Promos (Permanent Fixture)**
-- **Always available:** "Spend €35, Get €5 off" and "Spend €40, Get €10 off"
-- **Why:** Drives natural basket growth (customers spend €44-47 vs €41 baseline)
-- **Target:** All customers, self-selects high spenders
-- **Result:** Best ROI (€4.6-6.3 revenue per € discounted) with 75%+ adoption
+**Tier 1: SXGY Permanent (Always Available)**
+- "Spend €35, Get €5" and "Spend €40, Get €10"
+- Drives basket growth naturally (€44-47 avg vs €41 baseline)
+- Best ROI: €4.6-6.3 revenue per € discounted
 
 **Tier 2: 25-30% OFF (First Order Only)**
-- **Use case:** Customer acquisition campaigns on social media, delivery platforms
-- **Why:** 62% of first-timers use discounts—meet them where they are
-- **Restriction:** One-time use, cannot be combined with loyalty program
-- **Goal:** Lower customer acquisition cost, build trial base
+- Use for customer acquisition campaigns
+- Meets first-timers where they are (62% use discounts)
+- Never offer to existing customers
 
-**Tier 3: 2x1 Promos (Tactical Volume Driver)**
-- **Deploy on:** Wednesdays (weakest day), summer months (June-August slump)
-- **Why:** Proven volume booster (€4.9K avg monthly sales over 9 months)
-- **Goal:** Smooth demand, maintain kitchen/staff utilization during troughs
-- **Critical:** Do NOT use during peak times (Fri-Sun) where you're cannibalizing full-price demand
+**Tier 3: 2x1 (Tactical Only)**
+- Deploy on Wednesdays (weakest day) and summer months
+- Smooths demand, maintains kitchen utilization
+- Never use on peak days (Fri-Sun)
 
-**What to Eliminate:**
-- ❌ Weekend blanket discounts (customers already paying €42.78 vs €40.50 weekday)
-- ❌ Monthly "promo of the month" cycle (trains waiting behavior)
-- ❌ Free delivery offers (proven failure: August 2024 generated only €480)
+**Eliminate:**
+- Weekend blanket discounts (customers already pay more)
+- Monthly "promo of the month" cycles
+- Free delivery offers (proven failure)
 
 ---
 
-### 4. Reactivate Sleeping & Inactive Customers
+### 4. Reactivate Dormant Customers
 
-**Problem:**  
-85% of customer base (1,537 customers) is dormant—255 sleeping (60-180 days) and 1,282 inactive (180+ days).
+**The Problem:**  
+1,537 customers (85% of base) are sleeping or inactive.
 
-**Solution: Personalized Reactivation Campaigns**
+**The Solution:**  
+Launch targeted email + SMS campaigns using Last App's contact data:
 
-**For Sleeping Customers (60-180 days):**
-- **Channel:** Email + SMS (Last App provides both)
-- **Message:** "Your favorite [LAST_ORDER_ITEM] is waiting for you, [NAME]"
-- **Offer:** 20% off next order (valid 7 days)
-- **Urgency:** "Valid until [DATE]—don't let it expire!"
-- **Frequency:** Monthly batches, segmented by recency
+**Sleeping Customers (60-180 days):**
+- Message: "Your favorite [LAST_ORDER_ITEM] is waiting, [NAME]"
+- Offer: 20% off (valid 7 days)
+- Create urgency with expiration date
 
-**For Inactive Customers (180+ days):**
-- **Channel:** SMS-first (higher open rate for win-back)
-- **Message:** "We've missed you! 25% off to rediscover [RESTAURANT NAME]"
-- **New menu callout:** Highlight 2-3 items launched since their last visit
-- **Offer:** 25% off (valid 14 days)
-- **Realistic goal:** 5% reactivation = €7.4K annual value
+**Inactive Customers (180+ days):**
+- Message: "We've missed you! 25% off to rediscover us"
+- Highlight new menu items since their last visit
+- Longer window: 14 days validity
 
-**Automation Recommendation:**  
-Set up automated campaigns triggered when customers hit 60-day, 90-day, and 180-day inactive thresholds rather than manual monthly sends.
+**Expected Result:** 5% reactivation rate = €7.4K annual value
 
 ---
 
 ### 5. Test Weekend Discount Elimination
 
-**Problem:**  
-Weekend customers show **+5.6% higher avg ticket** (€42.78 vs €40.50) yet receive the **same discount rate** as weekdays (16.3% vs 16.2%), indicating higher willingness to pay being left on the table.
+**The Problem:**  
+Weekend customers have 5.6% higher tickets but same discount usage—leaving money on the table.
 
-**Solution: 60-Day A/B Test**
+**The Solution:**  
+Run 60-day A/B test:
+- **Control group:** Current weekend promos
+- **Test group:** SXGY only, no blanket discounts
 
-**Test Design:**
-- **Control (50% of customers):** Continue current weekend promo strategy
-- **Test (50% of customers):** SXGY promos only, no blanket discounts
-- **Duration:** 60 days (covers 8-9 weekends for statistical significance)
+**Success criteria:** Volume drops <5%, ticket stays €42+, margin improves €100+/weekend
 
-**Success Metrics:**
-- Order volume drops <5%
-- Avg ticket remains €42+ (maintain premium positioning)
-- Margin improvement €100+ per weekend
-
-**Expected Outcome:**
-If successful, eliminate weekend blanket discounts permanently, recapturing **€2-3K annually** while maintaining volume through SXGY basket-building promos.
-
-**If Test Fails:**  
-Revert immediately with no sunk cost (just learning that weekend customers ARE price-sensitive despite higher tickets).
+**If successful:** Eliminate weekend blanket discounts, recapture €2-3K annually  
+**If fails:** Revert with no cost (just learning)
 
 ---
-
 
 # 📚 Technical Appendix
 
