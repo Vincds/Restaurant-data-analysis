@@ -356,15 +356,6 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 
 ---
 
-**Total Chapter 2 Opportunity:**
-- Retention + frequency improvements: **€28,300**
-- Reactivation campaigns: **€7,370**
-- **Combined: €35,670 annually**
-
-**[VIZ: Donut chart with Active/Recent/Sleeping/Inactive segments]**
-
----
-
 ## 🎯 Chapter 2 Takeaways
 
 ### ✅ What We Know:
@@ -379,11 +370,7 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 - Customer lifetime only 2.8 months (should be 12-18)
 
 ### 💰 Opportunity:
-- Fix first-order retention: **€30-40K**
-- Fix second-order retention: **€10K**
-- Reactivate sleeping: **€7.4K**
-
-**Total: €47-57K annually**
+**Total: €25-35K annually**
 
 ---
 
@@ -401,14 +388,27 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 
 **🔥 Key Finding #9:** Night shift is core business (47% of revenue). Afternoon has highest avg ticket (€43.74) = premium ordering window.
 
-**Operational Implications:**
-- Heavy staffing Fri/Sat 8-10PM
-- Premium menu focus during afternoon
-- Consistent morning/lunch performance
 
 ---
+### 3.2 Day-of-Week Analysis
 
-### 3.2 Weekday vs Weekend
+**Best Performing Days:**
+- **Sunday:** Highest revenue (€34,387) and avg ticket (€42) - strongest single day
+- **Friday:** Second highest revenue (€29,901), peak dinner demand
+- **Saturday:** Strong weekend performance (€26,577)
+
+**Weakest Performing Days:**
+- **Wednesday:** Lowest revenue (€19,701) and avg ticket (€40) 🔴
+- **Tuesday:** Second weakest (€19,995), tied with Wednesday for mid-week slump
+- **Thursday:** Third weakest (€19,794), just below Tuesday
+
+**Strategic Implication:**  
+Mid-week (Tuesday-Thursday) shows consistent underperformance with ~€20K revenue vs ~€30K on peak days. **Wednesday represents the clearest opportunity** for tactical promotions (e.g., 2x1 offers) to smooth weekly demand and boost the weakest day by 30-40%, potentially adding €6-8K in weekly revenue.
+
+**[VIZ: Bar chart showing revenue by day of week with Wednesday highlighted as tactical promo opportunity]**
+---
+
+### 3.3 Weekday vs Weekend
 
 | Day Type | Sales | % | Avg Ticket | Discount Rate |
 |----------|-------|---|------------|---------------|
@@ -438,16 +438,11 @@ Weekend customers willing to pay more BUT discount usage identical (16.3% vs 16.
 ## 🎯 Chapter 3 Takeaways
 
 ### ✅ Operational Strengths:
-- Night shift = 47% (dinner core)
-- Weekdays = 65% (volume base)
-- Weekend +5.6% higher ticket
-- Clear seasonality patterns
-
-### 💡 Opportunities:
-- Weekend discount test (16% → 10%): **€2-3K**
-- Summer local campaign: **€2.4K**
-
-**Total: €4-6K annually**
+- Night shift = 47% of revenue (dinner is core business)
+- Weekdays = 65% of total revenue (volume driver)
+- Weekend avg ticket +5.6% higher (€42.78 vs €40.50)
+- Sunday is strongest single day (€34.4K, highest AOV €42)
+- Friday delivers peak volume (€29.9K, strong dinner demand)
 
 ---
 
