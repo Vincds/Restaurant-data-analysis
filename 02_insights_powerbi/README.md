@@ -528,10 +528,6 @@ We've trained customers to never pay full price.
 - When: Weak days (Wednesday) or weak seasons (May-Aug)
 - Goal: Smooth demand, maintain kitchen utilization
 
-**❌ Avoid: 35% OFF, Free Delivery**
-- Free delivery failed (August: €480 total)
-- 35% OFF: No proven advantage over 30%
-
 ---
 
 ## 🎯 Chapter 4 Takeaways
@@ -545,12 +541,6 @@ We've trained customers to never pay full price.
 - Discounts don't increase spend (1.2% lift)
 - Over-discounting by €11.7K
 
-### 💰 Opportunity:
-- Make SXGY permanent: **€8-10K**
-- Reduce rate 17.6% → 12%: **€11.7K**
-- Eliminate weekend blanket promos: **€2-3K**
-
-**Total: €22-25K annually**
 
 ---
 
