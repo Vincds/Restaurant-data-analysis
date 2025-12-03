@@ -1,6 +1,4 @@
 # 📊 Restaurant Sales Intelligence: SQL + Power BI Analysis
-**Exploratory Analysis Revealing Critical Retention and Discount Strategy Issues**
-
 ---
 
 ## 🎯 Project Overview
@@ -649,32 +647,6 @@ Launch targeted email + SMS campaigns using Last App's contact data:
 **Part 3:** [Tableau Dashboard](../03_tableau_dashboard/)  
 - Self-service analytics, interactive filtering
 - Geographic analysis, time-series
-
----
-
-## Skills Demonstrated
-
-**SQL Proficiency:**
-- Window functions (LAG, ROW_NUMBER)
-- CTEs for multi-level aggregation
-- Conditional aggregation
-- Complex joins
-
-**Business Intelligence:**
-- KPI design and metric definition
-- Dashboard UX and hierarchy
-- DAX measure creation
-
-**Analytical Thinking:**
-- Root cause analysis
-- Comparative analysis (promo evaluation)
-- Trend identification
-- Hypothesis generation
-
-**Data Storytelling:**
-- Problem → Analysis → Insight → Action
-- Stakeholder communication
-- Financial modeling (ROI calculation)
 
 ---
 
