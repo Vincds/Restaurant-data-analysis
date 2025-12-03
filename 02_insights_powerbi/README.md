@@ -1,4 +1,83 @@
 # 📊 Restaurant Sales Intelligence: SQL + Power BI Analysis
+**Exploratory Analysis Revealing Critical Retention and Discount Strategy Issues**
+
+---
+
+## 🎯 Project Overview
+
+Conducted comprehensive SQL analysis to uncover insights on sales trends, customer retention, and promotional effectiveness for a Barcelona-based Indian restaurant's delivery operations. Analyzed 24 months of transaction data (4,184 orders, 1,809 customers) from Last App, a delivery platform similar to Uber Eats. Built Power BI performance dashboards to visualize trends across customer lifecycle, operational patterns, and discount performance, delivering actionable recommendations to address a 65% first-order churn crisis and €11.7K in annual margin erosion from over-discounting.
+
+---
+
+## 📍 Client Background
+
+The client is a well-established Indian restaurant in Barcelona, renowned for its authentic cuisine and distinctive ambiance featuring traditional Indian decor and cultural symbols. After years of success as a dine-in destination, the restaurant launched delivery operations in mid-2022 through Last App, a third-party delivery platform that manages order processing and customer data.
+
+**Business Context:**
+- **Launch:** Mid-2022 (delivery operations)
+- **Analysis Period:** 2023-2024 (first two full years of delivery data)
+- **Platform:** Last App (handles order management, customer data, payment processing)
+- **Challenge:** Limited analytical capabilities within Last App's native reporting—basic revenue and order counts only, with no visibility into customer behavior, retention patterns, or promotional ROI
+
+This analysis addresses the platform's limitations by transforming raw order exports into a comprehensive business intelligence framework.
+
+---
+
+## 🎯 North Star Metrics
+
+### **Sales Performance & Growth Trends**
+Analyzing revenue trajectory, order volume, customer acquisition rates, and average order value to assess business health and identify growth drivers vs. warning signals.
+
+### **Customer Retention & Lifetime Value**
+Evaluating first-order retention rates, churn patterns across customer lifecycle stages, and lifetime value gaps between one-time and repeat customers to quantify retention opportunities.
+
+### **Operational Efficiency**
+Examining revenue distribution across day-parts (morning/afternoon/night), weekday vs. weekend performance, and seasonal patterns to optimize staffing and promotional timing.
+
+### **Discount Strategy & Promotional Effectiveness**
+Assessing promotional ROI across different discount types (percentage-based, BOGO, spend thresholds), measuring impact on basket size and customer behavior, and identifying margin erosion from over-discounting.
+
+---
+
+## 📊 Executive Summary
+
+### **Key Findings**
+
+**The Retention Crisis (Primary Issue)**
+- **65% of customers never return after their first order**, representing a critical onboarding failure
+- However, customers who make a second order show **60% likelihood of making a third**, indicating the first-order experience is the primary leak
+- Repeating customers are worth **4.5x more** than one-timers (€192.86 vs €43.00 lifetime value)
+- **85% of the customer base is inactive or sleeping**, requiring immediate intervention
+
+**The Discount Trap (Secondary Issue)**
+- Discounts **don't increase basket size**: €41.5 avg ticket with discount vs €41.0 without (1.2% meaningless lift)
+- **59% of all orders use discounts**—both new customers (62%) and repeat customers (59%) show identical dependency
+- Restaurant is **over-discounting by €11.7K annually** (17.6% rate vs 10-12% industry benchmark)
+- **Hidden winner identified:** SXGY promos (Spend €35 Get €5) drive €44-47 average orders with highest adoption rates, outperforming blanket percentage discounts 3:1
+
+**The Acquisition Decline (Emerging Risk)**
+- **New customer acquisition dropped 24.7%** (from 1,032 in 2023 to 777 in 2024)
+- Revenue growth of +5.4% is **fragile**: driven entirely by €2.10 higher ticket prices, not volume (+4 orders only)
+- Revenue mix shifted from 51% new/49% returning (2023) to 36% new/64% returning (2024), creating **future revenue risk** as smaller 2024 cohort matures
+- August 2024 crashed -42.5% YoY due to structural seasonality weakness combined with ineffective promotional strategy
+
+### **Strategic Recommendations**
+
+**Fix First-Order Retention (Urgent Priority)**
+Implement a 30-day automated onboarding program with staged incentives (10-20% off) to convert one-timers into repeat customers. Target: improve retention from 35% to 50%, unlocking €30-40K in annual lifetime value.
+
+**Build a Loyalty Program**
+Launch a milestone-based rewards system (e.g., 50% off after 5 orders) to train customers away from discount dependency and toward earning full-price purchase behavior. Replace constant monthly promos with earned rewards.
+
+**Optimize Discount Architecture**
+Restructure to a 3-tier model: (1) SXGY promos as permanent fixtures to drive basket growth, (2) 25-30% off for first orders only (acquisition tool, not retention), (3) 2x1 promos deployed tactically on weak days (Wednesdays) and weak seasons (summer) to smooth demand. Eliminate weekend blanket discounts where customers already demonstrate higher willingness to pay.
+
+**Reactivate Dormant Customers**
+Launch targeted "We Miss You" campaigns for 255 sleeping customers (60-180 days inactive) with personalized offers referencing their last order, unlocking €7.4K in reactivation potential.
+
+---
+
+# 📊 Restaurant Sales Intelligence: SQL + Power BI Analysis
 **Exploratory Analysis Revealing €57-69K in Growth Opportunities**
 
 Analyzed 24 months of delivery data (4,184 orders, 1,809 customers) using advanced SQL and Power BI to identify critical business issues: 65% first-order churn, 24.7% acquisition decline, and €11.7K in excess discounting. Delivered actionable recommendations with prioritized ROI.
