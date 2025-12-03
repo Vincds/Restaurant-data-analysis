@@ -11,7 +11,7 @@ Conducted comprehensive SQL analysis to uncover insights on sales trends, custom
 
 ## 📍 Client Background
 
-The client is a well-established Indian restaurant in Barcelona, renowned for its authentic cuisine and distinctive ambiance featuring traditional Indian decor and cultural symbols. After years of success as a dine-in destination, the restaurant launched delivery operations in mid-2022 through Last App, a third-party delivery platform that manages order processing and customer data.
+The client is a well-established Indian restaurant in Barcelona, renowned for its authentic cuisine and distinctive ambiance. After years of success as a dine-in destination, the restaurant launched delivery operations in mid-2022 through Last App, a third-party delivery platform that manages order processing and customer data.
 
 **Business Context:**
 - **Launch:** Mid-2022 (delivery operations)
@@ -61,6 +61,14 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 - Revenue mix shifted from 51% new/49% returning (2023) to 36% new/64% returning (2024), creating **future revenue risk** as smaller 2024 cohort matures
 - August 2024 crashed -42.5% YoY due to structural seasonality weakness combined with ineffective promotional strategy
 
+ Metric | Value | What It Means |
+|--------|-------|---------------|
+| **Revenue Growth** | +5.4% YoY | Driven by ticket size (+€2.1), not volume (+4 orders) |
+| **First-Order Churn** | 65% | Primary revenue leak—but those who return show 60% retention to order 3 |
+| **New Customer Acquisition** | -24.7% YoY | Lost 255 customers in 2024, shrinking future revenue base |
+| **Discount Rate** | 17.6% | €11.7K above industry benchmark (10-12%) |
+| **Customer Base Health** | 85% inactive/sleeping | Only 15% active/recent—requires immediate intervention |
+
 ### **Strategic Recommendations**
 
 **Fix First-Order Retention (Urgent Priority)**
@@ -94,13 +102,7 @@ The answer revealed a fragile foundation: +5.4% revenue growth masked by a 65% f
 
 ### **The Bottom Line**
 
-| Metric | Value | Status | What It Means |
-|--------|-------|--------|---------------|
-| **Revenue Growth** | +5.4% YoY | ⚠️ Fragile | Driven by ticket size (+€2.1), not volume (+4 orders) |
-| **First-Order Churn** | 65% | 🔴 Critical | Primary revenue leak—but those who return show 60% retention to order 3 |
-| **New Customer Acquisition** | -24.7% YoY | 🔴 Crisis | Lost 255 customers in 2024, shrinking future revenue base |
-| **Discount Rate** | 17.6% | 🔴 High | €11.7K above industry benchmark (10-12%) |
-| **Customer Base Health** | 85% inactive/sleeping | 🔴 Emergency | Only 15% active/recent—requires immediate intervention |
+|
 
 ### **Key Discoveries**
 
