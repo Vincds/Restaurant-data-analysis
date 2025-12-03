@@ -172,8 +172,9 @@ This shift from consistent growth to decline mid-year signals a fundamental chan
 - February 2024: €8,136 (+34.7% YoY)
 - January 2024: €8,835 (+32.4% YoY)
 
-**Worst Month:**
-- **August 2024: €3,251 (-42.5% YoY)** 🔴
+**Worst Months:**
+- August 2024: €3,251 (-42.5% YoY) 🔴
+- July 2024: €5,234 (-24.4% YoY)
 
 **[VIZ: Line chart with 2023 vs 2024 monthly sales + reference line at €7.2K avg]**
 
