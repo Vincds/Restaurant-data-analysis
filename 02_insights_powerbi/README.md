@@ -4,7 +4,7 @@
 
 ## 🎯 Project Overview
 
-Conducted comprehensive SQL analysis to uncover insights on sales trends, customer retention, and promotional effectiveness for a Barcelona-based Indian restaurant's delivery operations. Analyzed 24 months of transaction data (4,184 orders, 1,809 customers) from Last App, a delivery platform similar to Uber Eats. Built Power BI performance dashboards to visualize trends across customer lifecycle, operational patterns, and discount performance, delivering actionable recommendations to address a 65% first-order churn crisis and €11.7K in annual margin erosion from over-discounting.
+Conducted comprehensive SQL analysis to uncover insights on sales trends, customer retention, and promotional effectiveness for a Barcelona-based Indian restaurant's delivery operations. Analyzed 24 months of transaction data (4,184 orders, 1,809 customers) from Last App delivery platform. Built Power BI visualizations to support the analytical narrative, illustrating customer lifecycle patterns, operational trends, and promotional performance to communicate key findings and recommendations.
 
 ---
 
