@@ -1,4 +1,5 @@
-# 📊 Restaurant Sales Intelligence: SQL + Power BI Analysis
+# 📊 Restaurant Sales Intelligence
+**SQL -> Power Bi**
 ---
 
 ## 🎯 Project Overview
