@@ -1,9 +1,10 @@
-# 📊 Restaurant Sales Intelligence: SQL + Power BI Analysis
+# 📊 Restaurant Sales Intelligence
+**SQL -> Power Bi**
 ---
 
 ## 🎯 Project Overview
 
-Conducted comprehensive SQL analysis to uncover insights on sales trends, customer retention, and promotional effectiveness for a Barcelona-based Indian restaurant's delivery operations. Analyzed 24 months of transaction data (4,184 orders, 1,809 customers) from Last App, a delivery platform similar to Uber Eats. Built Power BI performance dashboards to visualize trends across customer lifecycle, operational patterns, and discount performance, delivering actionable recommendations to address a 65% first-order churn crisis and €11.7K in annual margin erosion from over-discounting.
+Conducted comprehensive SQL analysis to uncover insights on sales trends, customer retention, and promotional effectiveness for a Barcelona-based Indian restaurant's delivery operations. Analyzed 24 months of transaction data (4,184 orders, 1,809 customers) from Last App delivery platform. Built Power BI visualizations to support the analytical narrative, illustrating customer lifecycle patterns, operational trends, and promotional performance to communicate key findings and recommendations.
 
 ---
 
@@ -69,17 +70,19 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 
 ### **Strategic Recommendations**
 
-**Fix First-Order Retention (Urgent Priority)**
-Implement a 30-day automated onboarding program with staged incentives (10-20% off) to convert one-timers into repeat customers. Target: improve retention from 35% to 50%, unlocking €30-40K in annual lifetime value.
+**Build Brand Trust Beyond Discounts**
+Shift marketing focus from discount-led promotions to experience-driven content that showcases the restaurant's authentic cuisine. Introduce non-discount value adds and train customers to order based on quality, not deal availability.
 
-**Build a Loyalty Program**
-Launch a milestone-based rewards system (e.g., 50% off after 5 orders) to train customers away from discount dependency and toward earning full-price purchase behavior. Replace constant monthly promos with earned rewards.
+**Launch Milestone Loyalty Program**
+Implement a simple milestone program where customers unlock 50% off after completing 5 orders. This creates psychological momentum during the critical retention window (orders 2-5) and trains customers to value earning rewards rather than waiting for the next blanket promotion.
 
-**Optimize Discount Architecture**
-Restructure to a 3-tier model: (1) SXGY promos as permanent fixtures to drive basket growth, (2) 25-30% off for first orders only (acquisition tool, not retention), (3) 2x1 promos deployed tactically on weak days (Wednesdays) and weak seasons (summer) to smooth demand. Eliminate weekend blanket discounts where customers already demonstrate higher willingness to pay.
+**Restructure Discount Strategy (3-Tier Model)**
+(1) Make SXGY promos permanent fixtures (drives €44-47 baskets vs €41 baseline with best ROI), (2) Reserve 25-30% discounts for first orders only as acquisition tools, (3) Deploy 2x1 promos tactically on Wednesdays and during summer slumps to smooth demand. Eliminate weekend blanket discounts where customers already demonstrate higher willingness to pay.
 
 **Reactivate Dormant Customers**
-Launch targeted "We Miss You" campaigns for 255 sleeping customers (60-180 days inactive) with personalized offers referencing their last order, unlocking €7.4K in reactivation potential.
+Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactive customers with time-limited offers (20-25% off). 
+
+
 
 ---
 
