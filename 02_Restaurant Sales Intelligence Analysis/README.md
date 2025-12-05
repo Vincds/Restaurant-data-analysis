@@ -525,6 +525,24 @@ This analysis was built entirely using SQL for data exploration and transformati
 For detailed definitions of all metrics used throughout this analysis, see:  
 **[`Glossary of Metrics.md`](Glossary%20of%20Metrics.md)**
 
+---
+
+## 📝 Note on Product-Level Analysis
+
+**This analysis intentionally excludes product-level insights** due to data quality limitations. The original Last App export contained all products in a single unstructured text field, and despite Python regex parsing efforts (see [Project 1: Data Cleaning Pipeline](../01_data_cleaning_pipeline/)), ~10% of orders experienced product truncation due to Excel cell length limits.
+
+### **Future Analysis Opportunities (with clean product data):**
+
+With complete product-level data, valuable insights could include:
+
+- **Menu composition impact:** How do orders containing full menus (e.g., appetizer + main + drink) affect AOV compared to single-item orders?
+- **Product affinity analysis:** Which items are frequently purchased together? (e.g., "Customers who buy Chicken Tikka Masala also order Naan 78% of the time")
+- **Category performance:** Revenue contribution and margins by category (mains, sides, drinks, desserts)
+- **Time-based product trends:** Which dishes perform better during lunch vs dinner, weekday vs weekend?
+- **Bundling opportunities:** Identify high-margin item combinations to promote as "meal deals"
+
+---
+
 
 ## Project Context
 
