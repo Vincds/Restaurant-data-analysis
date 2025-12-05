@@ -41,7 +41,7 @@ Conducted exploratory SQL analysis to uncover retention crisis and discount inef
 **Key Findings:** 65% first-order churn, €11.7K margin erosion from over-discounting  
 **Deliverable:** Strategic recommendations with prioritized ROI
 
-**[→ View full analysis](02_sales_intelligence_analysis/README.md)**
+**[→ View full analysis](02_Sales_Intelligence_Analysis/README.md)**
 
 ---
 
@@ -136,8 +136,13 @@ restaurant-delivery-analytics/
 
 ## 📧 Contact
 
+<<<<<<< HEAD
 **Vincenzo Di Sario** 
 - Data Analyst | SQL • Python • Tableau • Power BI
+=======
+**Vincenzo Di Sario:** 
+ Data Analyst | SQL • Python • Tableau • Power BI
+>>>>>>> adb6aa4c3288aa54eed0abf405896a418642a671
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
 - 📧 [your.email@example.com](mailto:vin.disario@gmail.com)
