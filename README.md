@@ -90,7 +90,7 @@ Built self-service analytics dashboard for ongoing performance monitoring.
 **For Technical Reviewers:**
 1. Start with [Data Cleaning Pipeline](01_data_cleaning_pipeline/) to see data quality handling
 2. Review [SQL techniques](02_sales_intelligence_analysis/README.md#sql-techniques-demonstrated)
-3. Examine [Tableau data model](01_data_cleaning_pipeline///README.md#Data%20Model)
+3. Examine [Data model](01_data_cleaning_pipeline/README.md#-data-model)
 
 **For Those With More Time:**
 - Read all three project READMEs in sequence
