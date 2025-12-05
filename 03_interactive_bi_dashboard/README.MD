@@ -23,7 +23,7 @@ The restaurant operates exclusively through **Last App** delivery platform, whic
 - Are sales growing or declining month-over-month?
 - Which hours and days generate the most revenue?
 - Are promotions profitable or cannibalizing margins?
-- How many customers return after their first order?
+- How many customers return after their first order? 
 - Which neighborhoods should we target for marketing?
 
 ---
