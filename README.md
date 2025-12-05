@@ -45,14 +45,14 @@ Conducted exploratory SQL analysis to uncover retention crisis and discount inef
 
 ---
 
-### **[Project 3: Interactive Dashboard (Tableau)](03_tableau_dashboard/)**
+### **[Project 3: Interactive Dashboard (Tableau)](03_interactive_bi_dashboard/)**
 Built self-service analytics dashboard for ongoing performance monitoring.
 
 **Skills:** Tableau (LOD expressions, parameters), dashboard design, UX  
 **Key Features:** Sales trends, customer retention metrics, promotional ROI, geographic analysis  
-**Access:** [Live dashboard on Tableau Public](link)
+**Access:** [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
 
-**[→ View documentation](03_tableau_dashboard/README.md)**
+**[→ View documentation](03_interactive_bi_dashboard/README.md)**
 
 ---
 
@@ -84,13 +84,13 @@ Built self-service analytics dashboard for ongoing performance monitoring.
 
 **For Hiring Managers (5-minute overview):**
 1. Read the [Project 2 Executive Summary](02_sales_intelligence_analysis/README.md#executive-summary)
-2. View the [Tableau Dashboard](link) (live interactive)
+2. View the [Tableau Dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard) (live interactive)
 3. Skim [SQL queries](02_sales_intelligence_analysis/SQL/data_exploration_queries.sql) for technical depth
 
 **For Technical Reviewers:**
 1. Start with [Data Cleaning Pipeline](01_data_cleaning_pipeline/) to see data quality handling
 2. Review [SQL techniques](02_sales_intelligence_analysis/README.md#sql-techniques-demonstrated)
-3. Examine [Tableau data model](03_tableau_dashboard/README.md#data-model-structure)
+3. Examine [Tableau data model](03_interactive_bi_dashboard//README.md#data-model-structure)
 
 **For Those With More Time:**
 - Read all three project READMEs in sequence
@@ -137,7 +137,7 @@ restaurant-delivery-analytics/
 ## 📧 Contact
 
 **Vincenzo Di Sario** 
-Data Analyst | SQL • Python • Tableau • Power BI
+- Data Analyst | SQL • Python • Tableau • Power BI
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
 - 📧 [your.email@example.com](mailto:vin.disario@gmail.com)
