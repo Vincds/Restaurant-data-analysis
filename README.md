@@ -136,8 +136,8 @@ restaurant-delivery-analytics/
 
 ## 📧 Contact
 
-**Vincenzo Di Sario** 
-Data Analyst | SQL • Python • Tableau • Power BI
+**Vincenzo Di Sario:** 
+ Data Analyst | SQL • Python • Tableau • Power BI
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
 - 📧 [your.email@example.com](mailto:vin.disario@gmail.com)
