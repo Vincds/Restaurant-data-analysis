@@ -41,7 +41,7 @@ Conducted exploratory SQL analysis to uncover retention crisis and discount inef
 **Key Findings:** 65% first-order churn, €11.7K margin erosion from over-discounting  
 **Deliverable:** Strategic recommendations with prioritized ROI
 
-**[→ View full analysis](02_Sales%intelligence%analysis/README.md)**
+**[→ View full analysis](02_Sales_Intelligence_Analysis/README.md)**
 
 ---
 
