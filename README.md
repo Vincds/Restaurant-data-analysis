@@ -1,30 +1,23 @@
 # 🍽️ Restaurant Delivery Analytics: End-to-End Portfolio Project
 **Complete data pipeline from messy exports to actionable insights**
 
-[Brief 2-3 sentence overview of what this portfolio demonstrates]
-
 ---
 
-## 👤 About This Project
-
-This portfolio demonstrates a complete data analytics workflow, from cleaning messy real-world data to delivering business recommendations with measurable ROI. Built to showcase proficiency in SQL, Python, Excel, Power BI, and Tableau for end-to-end analytics roles.
-
-**Created by:** [Your Name]  
+**Created by:** Vincenzo Di Sario  
 **Role:** Data Analyst  
-**Contact:** [LinkedIn](link) | [Email](mailto:your@email.com)
+**Contact:** [LinkedIn](www.linkedin.com/in/vdisario) | [Email](mailto:vin.disario@gmail.com)
 
 ---
-
 ## 📊 Project Overview
 
-[2-3 paragraph summary of the business problem, approach, and impact]
+A well-established Indian restaurant in Barcelona launched delivery operations in 2022 through Last App, a third-party delivery platform. After two years of operation (2023-2024), the business showed modest revenue growth (+5.4%), but the owner had limited visibility into what was driving performance. Last App's native reporting only provided basic sales totals and order counts—no insights into customer behavior, retention patterns, or promotional effectiveness.
 
-**Business Context:** A Barcelona restaurant...
-**Challenge:** 65% first-order churn, 24.7% acquisition decline...
-**Approach:** Three-phase analysis covering data cleaning, SQL exploration, and visualization...
-**Impact:** Identified €50-55K in annual growth opportunities...
+This portfolio project demonstrates a complete analytics workflow to transform 4,184 raw delivery orders into actionable business intelligence. The analysis uncovered critical issues: 65% of customers never returned after their first order, new customer acquisition collapsed by 24.7% year-over-year, and excessive discounting (17.6% vs 10-12% industry benchmark) was eroding €11.7K in annual margins without driving basket growth. Despite these challenges, the data revealed clear opportunities—customers who made it past their first order showed 60% likelihood of placing a third, and SXGY threshold promotions (Spend €35, Get €5) outperformed blanket discounts by 3:1 in ROI.
+
+The three-phase approach included: (1) cleaning and anonymizing messy platform exports using Excel, Python, and SQL, (2) conducting exploratory SQL analysis with 19+ queries to surface retention, operational, and discount insights, and (3) building interactive Tableau dashboards for ongoing performance monitoring.
 
 ---
+
 
 ## 🗂️ Project Structure
 
@@ -152,12 +145,11 @@ restaurant-delivery-analytics/
 
 ## 📧 Contact
 
-**[Your Name]**  
+**Vincenzo Di Sario*  
 Data Analyst | SQL • Python • Tableau • Power BI
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
 - 📧 [your.email@example.com](mailto:vin.disario@gmail.com)
-- 🌐 [Portfolio Website](your-site-url) *(if applicable)*
 
 *Open to data analyst opportunities in Barcelona*
 
@@ -167,7 +159,6 @@ Data Analyst | SQL • Python • Tableau • Power BI
 
 **Data Privacy:** All customer data has been anonymized. Sample datasets provided for methodology demonstration only.
 
-**Reproducibility:** Full code, queries, and documentation provided for transparency and reproducibility.
 
 **Feedback Welcome:** If you have suggestions or questions about this analysis, feel free to reach out!
 
