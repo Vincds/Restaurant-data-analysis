@@ -525,7 +525,7 @@ Launch targeted email + SMS campaigns using Last App's contact data:
 - Exploratory analysis, business recommendations
 - Advanced SQL, Power BI specifications
 
-**Part 3:** [Tableau Dashboard](..03_Interactive_BI_Dashboard_(Tableau))  
+**Part 3:** [Tableau Dashboard](../03_Interactive_BI_Dashboard_(Tableau))  
 - Self-service analytics, interactive filtering
 - Geographic analysis, time-series
 
