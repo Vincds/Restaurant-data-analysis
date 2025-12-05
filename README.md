@@ -28,7 +28,7 @@ Transformed 4,184 messy delivery orders into analysis-ready datasets.
 
 **Skills:** Excel (anonymization, data quality), Python (regex parsing), SQL (data modeling)  
 **Key Output:** Normalized database with `orders` and `customers_kpi` tables  
-**Time:** [Duration]
+
 
 **[→ View full documentation](01_data_cleaning_pipeline/README.md)**
 
@@ -78,16 +78,7 @@ Built self-service analytics dashboard for ongoing performance monitoring.
 
 ---
 
-## 📈 Business Impact Summary
 
-| Finding | Opportunity | Priority |
-|---------|-------------|----------|
-| 65% first-order churn | €28-30K (loyalty program) | 🔴 Urgent |
-| 17.6% discount rate | €10-12K (restructure strategy) | 🟡 High |
-| 1,537 dormant customers | €7K (reactivation campaigns) | 🟢 Medium |
-| **Total Identified** | **€50-55K annual** | - |
-
----
 
 ## 🚀 How to Explore This Portfolio
 
@@ -145,7 +136,7 @@ restaurant-delivery-analytics/
 
 ## 📧 Contact
 
-**Vincenzo Di Sario*  
+**Vincenzo Di Sario** 
 Data Analyst | SQL • Python • Tableau • Power BI
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
