@@ -510,7 +510,20 @@ Launch targeted email + SMS campaigns using Last App's contact data:
 
 ---
 
+# 📚 Technical Appendix
 
+## **SQL Techniques Demonstrated**
+
+This analysis was built entirely using SQL for data exploration and transformation. All queries used to generate the insights in this report are available in the project repository.
+
+### **📁 Query Documentation**
+
+**Location:** [`02_insights_powerbi/SQL/data_exploration_queries.sql`](SQL/data_exploration_queries.sql)
+
+## **Glossary of Metrics**
+
+For detailed definitions of all metrics used throughout this analysis, see:  
+**[`Glossary of Metrics.md`](Glossary%20of%20Metrics.md)**
 
 
 ## Project Context
