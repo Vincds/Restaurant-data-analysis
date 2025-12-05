@@ -556,7 +556,7 @@ With complete product-level data, valuable insights could include:
 - Exploratory analysis, business recommendations
 - Advanced SQL, Power BI specifications
 
-**Part 3:** [Tableau Dashboard](../03_tableau_dashboard/)  
+**Part 3:** [Tableau Dashboard](../03_Interactive_BI_Dashboard_(Tableau))  
 - Self-service analytics, interactive filtering
 - Geographic analysis, time-series
 
