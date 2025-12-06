@@ -52,29 +52,7 @@ Built self-service analytics dashboard for ongoing performance monitoring.
 **Key Features:** Sales trends, customer retention metrics, promotional ROI, geographic analysis  
 **Access:** [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
 
-**[→ View documentation](03_interactive_bi_dashboard/README.md)**
-
----
-
-## 🎯 Key Skills Demonstrated
-
-**Technical Proficiency:**
-- SQL (window functions, CTEs, complex joins, conditional aggregation)
-- Python (pandas, regex for text parsing)
-- Excel (Power Query, data validation, anonymization)
-- Tableau (interactive dashboards, LOD expressions)
-- Power BI (DAX measures, visual design)
-
-**Business Acumen:**
-- KPI design and metric definition
-- Root cause analysis (why 65% churn after order 1?)
-- Financial modeling (€50K+ opportunity sizing with ROI)
-- Strategic recommendation development
-
-**Communication:**
-- Data storytelling (problem → insight → action)
-- Stakeholder-focused documentation
-- Technical documentation for reproducibility
+**[→ View documentation](../Restaurant-data-analysis/README.md)**
 
 ---
 
