@@ -552,11 +552,11 @@ With complete product-level data, valuable insights could include:
 - Cleaned 4,184 orders, anonymized 1,805 customers
 - Python regex parsing, SQL modeling
 
-**Part 2:** [SQL + Power BI Insights](../02_sql_powerbi_insights/) ← **This Project**  
+**Part 2:** [SQL + Power BI Insights](../02_sales_intelligence_analysis/) ← **This Project**  
 - Exploratory analysis, business recommendations
 - Advanced SQL, Power BI specifications
 
-**Part 3:** [Tableau Dashboard](../03_Interactive_BI_Dashboard_(Tableau))  
+**Part 3:** [Tableau Dashboard](../03_interactive_bi_dashboard/)  
 - Self-service analytics, interactive filtering
 - Geographic analysis, time-series
 
@@ -572,7 +572,7 @@ With complete product-level data, valuable insights could include:
 ---
 
 **Next in Series:**  
-→ [Project 3: Tableau Interactive Dashboard](../03_tableau_dashboard/)
+→ [Project 3: Tableau Interactive Dashboard](../03_interactive_bi_dashboard/) 
 
 ---
 

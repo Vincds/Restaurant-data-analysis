@@ -95,7 +95,7 @@ Built self-service analytics dashboard for ongoing performance monitoring.
 **For Those With More Time:**
 - Read all three project READMEs in sequence
 - Explore the [Glossary of Metrics](02_sales_intelligence_analysis/Glossary%20of%20Metrics.md)
-- Run SQL queries yourself (requires database setup from Project 1)
+- View the [Tableau Dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
 
 ---
 
@@ -140,7 +140,7 @@ restaurant-delivery-analytics/
  Data Analyst | SQL • Python • Tableau • Power BI
 
 - 💼 [LinkedIn](www.linkedin.com/in/vdisario)
-- 📧 [your.email@example.com](mailto:vin.disario@gmail.com)
+- 📧 [vin.disario@gmail.com](mailto:vin.disario@gmail.com)
 
 *Open to data analyst opportunities in Barcelona*
 

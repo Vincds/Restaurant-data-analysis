@@ -250,10 +250,10 @@ This dashboard is **Project 3** of a three-part restaurant analytics pipeline:
 1. **[Data Cleaning & Transformation](../01_data_cleaning_pipeline/)** (Excel + Python + SQL)  
    Transformed 4,184 messy orders into analysis-ready datasets
 
-2. **[SQL Insight Story + Power BI](../02_sql_powerbi_insights/)** (SQL + Power BI)  
+2. **[SQL Insight Story + Power BI](../02_sales_intelligence_analysis/)** (SQL + Power BI)  
    Exploratory analysis highlighting key business insights and recommendations
 
-3. **[Interactive Dashboard](../03_tableau_dashboard/)** (Tableau) ← **You are here**  
+3. **[Interactive Dashboard](../03_interactive_bi_dashboard)** (Tableau) ← **You are here**  
    Self-service analytics tool for ongoing performance monitoring
 
 **Data flow:**
@@ -279,47 +279,10 @@ The SQL views (`orders`, `customers_kpi`) created in Project 1 feed directly int
 
 **Note:** Data files (CSVs) are not included in the repository due to customer privacy. The Tableau Public link contains embedded sample data for exploration.
 
----
-
-## 🛠️ Skills Demonstrated
-
-**Tableau Proficiency:**
-- LOD expressions for complex aggregations
-- Parameter actions for dynamic metric selection
-- Dashboard navigation and container design
-- Calculated fields and conditional formatting
-- Multiple chart types (line, heatmap, histogram, map, stacked bars)
-
-**Business Intelligence:**
-- Stakeholder-focused design (non-technical restaurant owner)
-- KPI selection and hierarchy
-- Visual storytelling without clutter
-- Self-service analytics enablement
-
-**Data Visualization Principles:**
-- Appropriate chart selection for each question type
-- Color psychology (blue = financial, green = growth)
-- Progressive disclosure (filters/selectors reduce complexity)
-- Mobile-responsive layout
 
 ---
 
-## 💡 Key Takeaways
 
-**What makes this dashboard effective:**
-1. **Prioritizes speed** - Restaurant owner gets answers in <2 minutes
-2. **Reduces cognitive load** - Metric selector instead of 8 separate charts
-3. **Enables exploration** - Filters let users drill into specifics without overwhelming the default view
-4. **Tells a complete story** - Sales performance + customer behavior in one place
-5. **Designed for non-technical users** - No jargon, clear labels, intuitive navigation
-
-**Technical learning:**
-- LOD expressions are powerful but can impact performance—use sparingly
-- CSV imports limit interactivity compared to live SQL connections
-- Dashboard navigation buttons improve UX over tab-based layouts
-- Tooltips are underrated—they let you add detail without visual clutter
-
----
 
 ## 📧 Questions?
 
@@ -328,4 +291,4 @@ For details on how the data was prepared, see:
 - [SQL View Definitions](../01_data_cleaning_pipeline/SQL/01_views.sql)
 
 For business insights derived from this data, see:
-- [SQL + Power BI Insight Story](../02_sql_powerbi_insights/README.md)
+- [SQL + Power BI Insight Story](../02_sales_intelligence_analysis/README.md)
