@@ -160,7 +160,7 @@ This shift from consistent growth to decline mid-year signals a fundamental chan
 - August 2024: €3,251 (-42.5% YoY) 🔴
 - July 2024: €5,234 (-24.4% YoY)
 
-![2023 vs 2024 Sales](\screenshot\2023_vs_2024_sales.png)
+![2023 vs 2024 Sales](\screenshots\2023_vs_2024_sales.png)
 
 ---
 ### 1.3 The Revenue Mix Shift
@@ -178,7 +178,7 @@ This looks like retention success but masks an acquisition crisis. Without new c
 
 **Analogy:** You're keeping current customers happy, but the funnel is drying up. In 12 months, you'll have fewer returning customers from 2024's smaller cohort.
 
-![2023 vs 2024 Revenue Composition](\screenshot\2023_vs_2024_revenue_composition.png)
+![2023 vs 2024 Revenue Composition](\screenshots\2023_vs_2024_revenue_composition.png)
 
 ---
 ### 1.4 The Acquisition Crisis
@@ -195,7 +195,7 @@ This looks like retention success but masks an acquisition crisis. Without new c
 
 **The Burning Platform:** Without fixing retention, even strong acquisition only yields 35% efficiency. But acquisition is declining, creating compounding crisis.
 
-![](\screenshot\Customer_Type_Distribution_Over_Time.png)
+![](\screenshots\Customer_Type_Distribution_Over_Time.png)
 ---
 
 ### 1.5 Margin Pressure
