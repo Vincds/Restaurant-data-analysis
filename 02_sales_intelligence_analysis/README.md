@@ -135,7 +135,6 @@ Revenue grew 5.4% but **only 4 additional orders** were placed. Entire growth ca
 - One bad quarter could erase all gains
 - 2025 revenue at risk if 2024's smaller cohort doesn't mature
 
-**[VIZ: Executive KPI cards showing all metrics with YoY indicators]**
 
 ---
 
@@ -246,7 +245,7 @@ This looks like retention success but masks an acquisition crisis. Without new c
 **Critical Insight:**  
 First cliff (65%) is the killer. But customers who cross it are worth targeting—60% make order 3. **Focus: convert one-timers → two-timers.**
 
-**[VIZ: Funnel chart showing 1,805 → 635 → 378 → 146 with drop percentages]**
+![](screenshots/customer_retention_funnel.png)
 
 ---
 
@@ -330,7 +329,7 @@ Reality: "Discount → trial → love food → **wait for next discount**"
 **Strategic Implication:**  
 Mid-week (Tuesday-Thursday) shows consistent underperformance with ~€20K revenue vs ~€30K on peak days. **Wednesday represents the clearest opportunity** for tactical promotions (e.g., 2x1 offers) to smooth weekly demand and boost the weakest day by 30-40%, potentially adding €6-8K in weekly revenue.
 
-**[VIZ: Bar chart showing revenue by day of week with Wednesday highlighted as tactical promo opportunity]**
+![](screenshots/Day-Part_&_Weekday_Analysis.png)
 ---
 
 ### 3.3 Weekday vs Weekend
@@ -347,7 +346,6 @@ Weekend customers willing to pay more BUT discount usage identical (16.3% vs 16.
 
 **Hypothesis:** Reduce weekend discounts 16% → 10% without losing volume (test recommended).
 
-**[VIZ: Clustered column chart comparing weekday vs weekend metrics]**
 
 ---
 
@@ -410,7 +408,16 @@ Weekend customers willing to pay more BUT discount usage identical (16.3% vs 16.
 - But: Lowest AOV (€38.7), highest discount % (33%), worst ROI (€2.0)
 - **Strategic use:** Volume driver for weak days/seasons, NOT margin optimizer
 
-**[VIZ: Table with promo performance ranked by Revenue/€ Discounted]**
+The scatter plots below reveal promotional efficiency across two dimensions:
+
+- **Efficiency View: AOV vs Discount Rate**
+- **Volume View: Monthly Orders vs Discount Rate**
+
+![Promo Efficiency Matrix](screenshots/promo_efficiency_matrix_combined.png)
+
+**Insight:** SXGY promos (top-left quadrant) deliver €44-47 AOV with only 14-18% discount rate—ideal positioning.
+
+
 
 ---
 
