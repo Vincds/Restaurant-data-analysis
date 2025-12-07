@@ -40,6 +40,8 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 
 ## 📊 Executive Summary
 
+![](screenshots/monthly_sales_trend)
+
 ### **Key Findings**
 
 **The Retention Crisis (Primary Issue)**
