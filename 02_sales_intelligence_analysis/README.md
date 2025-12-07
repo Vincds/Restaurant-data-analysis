@@ -40,7 +40,7 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 
 ## 📊 Executive Summary
 
-![Monthly Sales Trend](screenshots/monthly_sales_trend)
+![](screenshots/monthly_sales_trend)
 
 ### **Key Findings**
 
