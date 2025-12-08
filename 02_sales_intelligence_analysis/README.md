@@ -101,7 +101,7 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 ---
 
 
-**📊 Continue to [Detailed Analysis](#-analysis-structure) below, or jump to [Technical Appendix](#-technical-appendix) for SQL methodology and data validation.**
+### **📊 Continue to [Detailed Analysis](#-analysis-structure) below, or jump to [Technical Appendix](#-technical-appendix) for SQL methodology and data validation.**
 ---
 
 ## 📖 Analysis Structure
