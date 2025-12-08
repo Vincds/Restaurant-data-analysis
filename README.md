@@ -1,136 +1,173 @@
-# 🍽️ Restaurant Delivery Analytics: End-to-End Portfolio Project
-**Complete data pipeline from messy exports to actionable insights**
+# 🍽️ Restaurant Delivery Analytics
+**Turning 4,184 messy orders into €25K+ actionable insights**
+
+[Screenshot: Tableau dashboard showing 65% churn + €11.7K margin leak]
 
 ---
 
-**Created by:** Vincenzo Di Sario  
-**Role:** Data Analyst  
-**Contact:** [LinkedIn](www.linkedin.com/in/vdisario) | [Email](mailto:vin.disario@gmail.com)
+## 💡 The Impact Story
 
----
-## 📊 Project Overview
+A Barcelona restaurant was **losing €40K annually** to first-order churn (65% never returned) and **wasting €11.7K on ineffective discounting**—but didn't know it. Their delivery platform (Last App) only showed total sales, no customer behavior.
 
-A well-established Indian restaurant in Barcelona launched delivery operations in 2022 through Last App, a third-party delivery platform. After two years of operation (2023-2024), the business showed modest revenue growth (+5.4%), but the owner had limited visibility into what was driving performance. Last App's native reporting only provided basic sales totals and order counts—no insights into customer behavior, retention patterns, or promotional effectiveness.
+**I built an end-to-end analytics pipeline** to uncover the retention crisis, quantify margin erosion, and deliver 4 high-ROI recommendations estimated at **€25-30K annual value**.
 
-This portfolio project demonstrates a complete analytics workflow to transform 4,184 raw delivery orders into actionable business intelligence. The analysis uncovered critical issues: 65% of customers never returned after their first order, new customer acquisition collapsed by 24.7% year-over-year, and excessive discounting (17.6% vs 10-12% industry benchmark) was eroding €11.7K in annual margins without driving basket growth. Despite these challenges, the data revealed clear opportunities—customers who made it past their first order showed 60% likelihood of placing a third, and SXGY threshold promotions (Spend €35, Get €5) outperformed blanket discounts by 3:1 in ROI.
+| Finding | Business Impact | Recommended Fix |
+|---------|-----------------|-----------------|
+| **65% first-order churn** | €40K lost LTV annually | Milestone loyalty (50% off after 5 orders) |
+| **17.6% discount rate** | €11.7K margin erosion | Make SXGY promos permanent |
+| **1,537 dormant customers** | €147K inactive LTV | Email/SMS reactivation (5% = €7.4K) |
 
-The three-phase approach included: (1) cleaning and anonymizing messy platform exports using Excel, Python, and SQL, (2) conducting exploratory SQL analysis with 19+ queries to surface retention, operational, and discount insights, and (3) building interactive Tableau dashboards for ongoing performance monitoring.
-
----
-
-
-## 🗂️ Project Structure
-
-This portfolio consists of three interconnected projects:
-
-### **[Project 1: Data Cleaning & Transformation Pipeline](01_data_cleaning_pipeline/)**
-Transformed 4,184 messy delivery orders into analysis-ready datasets.
-
-**Skills:** Excel (anonymization, data quality), Python (regex parsing), SQL (data modeling)  
-**Key Output:** Normalized database with `orders` and `customers_kpi` tables  
-
-
-**[→ View full documentation](01_data_cleaning_pipeline/README.md)**
+**Skills demonstrated:** SQL cohort analysis, Python regex parsing, Tableau dashboards, data storytelling
 
 ---
 
-### **[Project 2: Sales Intelligence Analysis](02_sales_intelligence_analysis/)**
-Conducted exploratory SQL analysis to uncover retention crisis and discount inefficiencies.
+## 🎯 Quick Navigation
 
-**Skills:** Advanced SQL (window functions, CTEs), business intelligence, data storytelling  
-**Key Findings:** 65% first-order churn, €11.7K margin erosion from over-discounting  
-**Deliverable:** Strategic recommendations with prioritized ROI
-
-**[→ View full analysis](02_sales_intelligence_analysis/README.md)**
+**Want the headline?** → [3-minute Executive Summary](02_sales_intelligence_analysis/README.md#executive-summary)  
+**Visual person?** → [Live Tableau Dashboard](https://public.tableau.com/...)  
+**Technical reviewer?** → [SQL queries](02_sales_intelligence_analysis/SQL/) + [Python parser](01_data_cleaning_pipeline/Python/)  
+**Hiring manager?** → Keep reading (2 more minutes)
 
 ---
 
-### **[Project 3: Interactive Dashboard (Tableau)](03_interactive_bi_dashboard/)**
-Built self-service analytics dashboard for ongoing performance monitoring.
+## 📊 The Three Projects
 
-**Skills:** Tableau (LOD expressions, parameters), dashboard design, UX  
-**Key Features:** Sales trends, customer retention metrics, promotional ROI, geographic analysis  
-**Access:** [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
+### 1️⃣ Data Cleaning Pipeline: Messy → Analysis-Ready
+[Before/After Screenshot]
 
-**[→ View documentation](../Restaurant-data-analysis/README.md)**
+**The Mess:**
+- All products in one unstructured text field: `"1x PACK PARA 2: 1x Tikka*, 2x Coke..."`
+- Customer PII exposed (phones, emails, addresses)
+- 12.5% revenue reconciliation gap
 
----
+**The Fix:**
+- Python regex to parse 4,184 nested product strings
+- Excel Flash Fill for ZIP extraction + PII anonymization
+- SQL views with defensive NULL handling for KPIs
 
+**The Result:**
+- `orders` table (4,184 rows) with temporal, geographic, financial features
+- `customers_kpi` table (1,805 customers) with retention status, LTV, frequency
+- 87.5% revenue reconciliation (documented limitations)
 
-
-## 🚀 How to Explore This Portfolio
-
-**For Hiring Managers (5-minute overview):**
-1. Read the [Project 2 Executive Summary](02_sales_intelligence_analysis/README.md#executive-summary)
-2. View the [Tableau Dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard) (live interactive)
-3. Skim [SQL queries](02_sales_intelligence_analysis/SQL/data_exploration_queries.sql) for technical depth
-
-**For Technical Reviewers:**
-1. Start with [Data Cleaning Pipeline](01_data_cleaning_pipeline/) to see data quality handling
-2. Review [SQL techniques](02_sales_intelligence_analysis/README.md#sql-techniques-demonstrated)
-3. Examine [Data model](01_data_cleaning_pipeline/README.md#-data-model)
-
-**For Those With More Time:**
-- Read all three project READMEs in sequence
-- Explore the [Glossary of Metrics](02_sales_intelligence_analysis/Glossary%20of%20Metrics.md)
-- View the [Tableau Dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
+→ [See the technical breakdown](01_data_cleaning_pipeline/)
 
 ---
 
-## 📁 Repository Structure
-```
-restaurant-delivery-analytics/
-│
-├── 01_data_cleaning_pipeline/
-│   ├── Excel/                    # Anonymization & standardization
-│   ├── Python/                   # Text parsing scripts
-│   ├── SQL/                      # Data modeling & views
-│   └── README.md                 # Full pipeline documentation
-│
-├── 02_sales_intelligence_analysis/
-│   ├── SQL/                      # Exploratory queries
-│   ├── Glossary of Metrics.md    # Metric definitions
-│   └── README.md                 # Analysis & recommendations
-│
-├── 03_tableau_dashboard/
-│   ├── screenshots/              # Dashboard previews
-│   ├── Restaurant_Dashboard.twbx # Tableau workbook
-│   └── README.md                 # Dashboard documentation
-│
-└── README.md                     # ← You are here
-```
+### 2️⃣ SQL Analysis: €25K Opportunity Uncovered
+[Chart: Retention cascade showing 65% → 35% → 21% drop]
+
+**The Investigation:**
+- 19 SQL queries exploring retention, discounting, operations
+- Window functions for customer lifecycle cohorts
+- Promotional ROI comparison across 7 discount types
+
+**The Findings:**
+- 🔴 **65% first-order churn** (vs 30-40% industry benchmark)
+- 🔴 **€11.7K annual margin erosion** (17.6% discount rate vs 10-12% healthy)
+- 🟢 **SXGY promos outperform 3:1** (€44-47 AOV with 14-18% discount)
+
+**The Deliverable:**
+- 4 prioritized recommendations with estimated ROI
+- Financial Impact Summary quantifying all opportunities
+- Strategic implementation roadmap
+
+→ [Read the full analysis](02_sales_intelligence_analysis/)
 
 ---
 
-## 🛠️ Technologies Used
+### 3️⃣ Tableau Dashboard: Self-Service Analytics
+[Dashboard screenshot: Sales + Customer views]
 
-![SQL](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black)
+**The Need:**
+Last App's native reporting = total sales + order count only. No trends, no segmentation, no retention metrics.
 
----
+**The Solution:**
+Interactive dashboard with:
+- Sales trends (monthly, day-part, promo performance)
+- Customer health (retention rate, lifetime value, acquisition trends)
+- Geographic analysis (Barcelona neighborhood heatmap)
+- Dynamic filters (year, shift, discount usage, product category)
 
-## 📧 Contact
+**The Impact:**
+Owner can now answer in 2 minutes:
+- "Are sales growing or declining month-over-month?"
+- "Which promos drive basket size vs just margin erosion?"
+- "How many customers return after first order?"
 
-**Vincenzo Di Sario:** 
- Data Analyst | SQL • Python • Tableau • Power BI
-
-- 💼 [LinkedIn](www.linkedin.com/in/vdisario)
-- 📧 [vin.disario@gmail.com](mailto:vin.disario@gmail.com)
-
-*Open to data analyst opportunities in Barcelona*
-
----
-
-## 📝 Notes
-
-**Data Privacy:** All customer data has been anonymized. Sample datasets provided for methodology demonstration only.
-
-
-**Feedback Welcome:** If you have suggestions or questions about this analysis, feel free to reach out!
+→ [Explore the live dashboard](https://public.tableau.com/...)
 
 ---
 
-**Last Updated:** 05/12/2025
+## 🛠️ Technical Highlights
+
+**SQL Skills:**
+- Window functions (`ROW_NUMBER`, `LEAD`, `LAG`) for customer lifecycle
+- CTEs for retention cohort analysis
+- Defensive programming (`NULLIF`, `COALESCE`) for zero-division guards
+- 19+ exploratory queries documented with business logic
+
+**Python Skills:**
+- Regex text parsing for nested product strings
+- Pandas for data transformation
+- Handling edge cases (truncated cells, special characters)
+
+**Tableau Skills:**
+- LOD expressions for dynamic KPI calculations
+- Parameters for metric switching (Sales → Orders → Avg Ticket)
+- Dashboard actions for filtering across views
+- Geographic visualization (Barcelona neighborhoods)
+
+**Data Quality:**
+- Revenue reconciliation validation (87.5% match)
+- Documented limitations (product truncation, platform gaps)
+- Transparent about what the data CAN'T answer
+
+---
+
+## 👤 About Me
+
+**Vincenzo Di Sario** | Junior Data Analyst  
+📍 Barcelona, Spain
+
+**I specialize in:** Turning messy business data into executive-ready insights
+
+**My approach:**
+1. **Clean ruthlessly** – Bad data = bad decisions
+2. **Question everything** – Why does this metric matter to the business?
+3. **Visualize clearly** – If stakeholders squint, I failed
+
+**What I'm looking for:**
+- Junior Data Analyst role in Barcelona (or remote EU)
+- Companies that value curiosity, clear communication, and data storytelling
+- Teams where I can learn from senior analysts while contributing immediately
+
+**Tech stack:** SQL, Python (Pandas), Tableau, Power BI, Excel  
+**Currently learning:** dbt, Snowflake, advanced statistical modeling
+
+---
+
+## 📧 Let's Connect
+
+💼 **[LinkedIn](www.linkedin.com/in/vdisario)**  
+📧 **[vin.disario@gmail.com](mailto:vin.disario@gmail.com)**  
+📊 **[Tableau Public Profile](https://public.tableau.com/app/profile/vincenzo.di.sario)**
+
+**Open to:** Full-time junior analyst roles, contract projects, portfolio feedback
+
+---
+
+## 📝 Project Notes
+
+**Data Privacy:** All customer data anonymized. Sample datasets for demonstration only.
+
+**Want to replicate this analysis?**
+1. Start with [Data Cleaning Pipeline](01_data_cleaning_pipeline/) (setup instructions)
+2. Review [SQL queries](02_sales_intelligence_analysis/SQL/) (copy-paste ready)
+3. Download [Tableau workbook](03_interactive_bi_dashboard/) (pre-connected to sample data)
+
+**Feedback welcome!** If you spot analytical gaps, data quality issues, or have suggestions for improvement, please reach out. I'm always learning.
+
+---
+
+**Last Updated:** December 2024
