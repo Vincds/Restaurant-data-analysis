@@ -79,7 +79,7 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 | **First-order churn** | €40,000 lost LTV | Onboarding failure (65% never return) | Milestone loyalty program |
 | **Discount inefficiency** | €11,704 margin erosion | 17.6% rate vs 10% benchmark | SXGY permanent + eliminate weekend blanket discounts |
 | **Dormant customers** | €146,800 inactive LTV | 85% sleeping/inactive | Email/SMS reactivation (5% = €7.4K) |
-| **Acquisition decline** | €10,965 (2024 loss) | -24.7% new customers YoY | Brand trust + retention fixes reduce CAC pressure |
+
 
 **Total Addressable Opportunity:** €25-30K annually (conservative estimate)
 
@@ -100,41 +100,31 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 
 ---
 
-### 💡 Want the Full Story?
 
-The recommendations above are based on **19 SQL queries** analyzing 4,184 orders across 24 months. For technical reviewers interested in:
-
-- **Methodology:** How we defined retention, calculated LTV, and validated discount impact  
-- **SQL Techniques:** Window functions, cohort analysis, promotional ROI calculations  
-- **Data Quality:** Revenue reconciliation gaps, product parsing limitations, validation steps
-
-→ **Continue to [Detailed Analysis](#-analysis-structure)** below  
-→ **Jump to [Technical Appendix](#-technical-appendix)** (SQL queries, metrics glossary)  
-→ **View [Data Model](../01_data_cleaning_pipeline/README.md#data-model)** (ER diagram, table schemas)
-
+**📊 Continue to [Detailed Analysis](#-analysis-structure) below, or jump to [Technical Appendix](#-technical-appendix) for SQL methodology and data validation.**
 ---
 
 ## 📖 Analysis Structure
 
 ### **Four Core Questions Investigated**
 
-**![Chapter 1: Business Health Check](#chapter-1-business-health-check)**  
+**![Chapter 1: Business Health Check](#-chapter-1-business-health-check)**  
 *"Is growth real or an illusion?"*  
 → Revenue +5.4%, but volume flat. Growth is ticket-driven, not customer-driven.
 
-**![Chapter 2: The Retention Crisis](#chapter-2-the-retention-crisis)**  
+**![Chapter 2: The Retention Crisis](#-chapter-2-the-retention-crisis)**  
 *"Why do 65% of customers never return?"*  
 → Onboarding failure costs €40-50K annually. But survivors show promise.
 
-**![Chapter 3: Operational Performance](#chapter-3-operational-performance)**  
+**![Chapter 3: Operational Performance](#-chapter-3-operational-performance)**  
 *"Where is the business strongest?"*  
 → Night shift = 47% of revenue. Weekdays drive volume, weekends drive value.
 
-**![Chapter 4: Discount Strategy Analysis](#chapter-4-discount-strategy-analysis)**  
+**![Chapter 4: Discount Strategy Analysis](#-chapter-4-discount-strategy-analysis)**  
 *"Are promotions helping or hurting?"*  
 → Discounts don't increase spend. SXGY promos outperform blanket discounts 3:1.
 
-**[Strategic Implementation Details](#strategic-recommendations)** 
+**[Strategic Implementation Details](#-strategic-recommendations)** 
 → Deep-dive on the 4 recommended actions
 ---
 
@@ -553,7 +543,7 @@ This analysis was built entirely using SQL for data exploration and transformati
 
 **Location:** [`02_insights_powerbi/SQL/data_exploration_queries.sql`](SQL/data_exploration_queries.sql)
 
-## **Glossary of Metrics**
+### **Glossary of Metrics**
 
 For detailed definitions of all metrics used throughout this analysis, see:  
 **[`Glossary of Metrics.md`](Glossary%20of%20Metrics.md)**
