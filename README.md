@@ -151,10 +151,10 @@ Owner can now answer in 2 minutes:
 - Transparent about what the data CAN'T answer
 
 ---
-
 ## 👤 About Me
 
-**Vincenzo Di Sario** | Data Analyst | [Portfolio](https://github.com/Vincds/Restaurant-data-analysis) 
+**Vincenzo Di Sario** | Data Analyst | [Portfolio](https://github.com/Vincds/Restaurant-data-analysis)
+
 📍 Barcelona, Spain
 
 **I specialize in:** Turning messy business data into executive-ready insights
@@ -176,7 +176,7 @@ Owner can now answer in 2 minutes:
 
 ## 📧 Let's Connect
 
-💼 **[LinkedIn](https://www.linkedin.com/in/vdisario)**
+💼 **[LinkedIn](https://www.linkedin.com/in/vdisario)**  
 📧 **[vin.disario@gmail.com](mailto:vin.disario@gmail.com)**  
 📊 **[Tableau Public Profile](https://public.tableau.com/app/profile/vincenzo.di.sario)**
 
