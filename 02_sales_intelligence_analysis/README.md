@@ -62,13 +62,15 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 - Revenue mix shifted from 51% new/49% returning (2023) to 36% new/64% returning (2024), creating **future revenue risk** as smaller 2024 cohort matures
 - August 2024 crashed -42.5% YoY due to structural seasonality weakness combined with ineffective promotional strategy
 
- Metric | Value | What It Means |
-|--------|-------|---------------|
+ Metric | Value |
+|--------|-------|
 | **Revenue Growth** | +5.4% YoY |
 | **First-Order Churn** | 65% |
 | **New Customer Acquisition** | -24.7% YoY |
 | **Discount Rate** | 17.6% |
 | **Customer Base Health** | 85% inactive/sleeping |
+
+**Implication:** Growth depends entirely on pricing power, which plateaus. Without volume growth, one weak quarter erases gains. (See Executive Summary for strategic impact.)
 
 ### 💰 Financial Impact Summary
 
@@ -80,6 +82,7 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 | **Acquisition decline** | €10,965 (2024 loss) | -24.7% new customers YoY | Brand trust + retention fixes reduce CAC pressure |
 
 **Total Addressable Opportunity:** €25-30K annually (conservative estimate)
+
 
 ### **Strategic Recommendations**
 
@@ -105,9 +108,9 @@ The recommendations above are based on **19 SQL queries** analyzing 4,184 orders
 - **SQL Techniques:** Window functions, cohort analysis, promotional ROI calculations  
 - **Data Quality:** Revenue reconciliation gaps, product parsing limitations, validation steps
 
-→ **Continue to [Detailed Analysis](#Analysis-Structure)** below  
-→ **Jump to [Technical Appendix](#Technical-Appendix)** (SQL queries, metrics glossary)  
-→ **View [Data Model](../01_data_cleaning_pipeline/#data-model)** (ER diagram, table schemas)
+→ **Continue to [Detailed Analysis](#-analysis-structure)** below  
+→ **Jump to [Technical Appendix](#-technical-appendix)** (SQL queries, metrics glossary)  
+→ **View [Data Model](../01_data_cleaning_pipeline/README.md#data-model)** (ER diagram, table schemas)
 
 ---
 
@@ -582,7 +585,7 @@ With complete product-level data, valuable insights could include:
 - Cleaned 4,184 orders, anonymized 1,805 customers
 - Python regex parsing, SQL modeling
 
-**Part 2:** [SQL + Power BI Insights](../02_sales_intelligence_analysis/) ← **This Project**  
+**Part 2:** [Sales Intelligence Analysis](../02_sales_intelligence_analysis/) ← **This Project**  
 - Exploratory analysis, business recommendations
 - Advanced SQL, Power BI specifications
 
