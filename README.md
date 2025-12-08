@@ -127,7 +127,7 @@ Owner can now answer in 2 minutes:
 
 ## 👤 About Me
 
-**Vincenzo Di Sario** | Junior Data Analyst  
+**Vincenzo Di Sario** | Data Analyst  
 📍 Barcelona, Spain
 
 **I specialize in:** Turning messy business data into executive-ready insights
