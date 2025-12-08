@@ -108,7 +108,7 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 
 ### **Four Core Questions Investigated**
 
-**[Chapter 1: Business Health Check](#-chapter-1-business-health-check)** 
+**[Chapter 1: Business Health Check](#-chapter-1-business-health-check)**  
 *"Is growth real or an illusion?"*  
 → Revenue +5.4%, but volume flat. Growth is ticket-driven, not customer-driven.
 
@@ -124,8 +124,9 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 *"Are promotions helping or hurting?"*  
 → Discounts don't increase spend. SXGY promos outperform blanket discounts 3:1.
 
-**[Strategic Implementation Details](#-strategic-recommendations)** 
-→ Deep-dive on the 4 recommended actions
+**[Strategic Implementation Details](#-strategic-recommendations)**  
+*"How do we fix these issues?"*  
+→ Deep-dive on the 4 recommended actions with implementation roadmap.
 ---
 
 # 📘 Chapter 1: Business Health Check
