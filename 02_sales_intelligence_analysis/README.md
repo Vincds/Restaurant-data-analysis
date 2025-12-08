@@ -92,22 +92,24 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 
 ### **Four Core Questions Investigated**
 
-**Chapter 1: Business Health Check**  
+**![Chapter 1: Business Health Check](#-chapter-1-business-health-check)**  
 *"Is growth real or an illusion?"*  
 → Revenue +5.4%, but volume flat. Growth is ticket-driven, not customer-driven.
 
-**Chapter 2: The Retention Crisis**  
+**![Chapter 2: The Retention Crisis](#-chapter-2-the-retention-crisis)**  
 *"Why do 65% of customers never return?"*  
 → Onboarding failure costs €40-50K annually. But survivors show promise.
 
-**Chapter 3: Operational Performance**  
+**![Chapter 3: Operational Performance](#-chapter-3-operational-performance)**  
 *"Where is the business strongest?"*  
 → Night shift = 47% of revenue. Weekdays drive volume, weekends drive value.
 
-**Chapter 4: Discount Strategy Analysis**  
+**![Chapter 4: Discount Strategy Analysis](#-chapter-4-discount-strategy-analysis)**  
 *"Are promotions helping or hurting?"*  
 → Discounts don't increase spend. SXGY promos outperform blanket discounts 3:1.
 
+**[Strategic Implementation Details](#-strategic-recommendations)** 
+→ Deep-dive on the 4 recommended actions
 ---
 
 # 📘 Chapter 1: Business Health Check
@@ -506,15 +508,10 @@ Implement a simple milestone program: **After 5 orders, unlock 50% off your next
 **The Solution:**  
 Launch targeted email + SMS campaigns using Last App's contact data:
 
-**Sleeping Customers (60-180 days):**
-- Message: "Your favorite [LAST_ORDER_ITEM] is waiting, [NAME]"
-- Offer: 20% off (valid 7 days)
-- Create urgency with expiration date
-
-**Inactive Customers (180+ days):**
-- Message: "We've missed you! 25% off to rediscover us"
+**Sleeping and Inactive Customers (60+ days):**
+- Message: "We've missed you! 30% off to rediscover us"
 - Highlight new menu items since their last visit
-- Longer window: 14 days validity
+- Create urgency with expiration date
 
 **Expected Result:** 5% reactivation rate = €7.4K annual value
 
