@@ -34,7 +34,6 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 ### 1️⃣ Data Cleaning Pipeline: Messy → Analysis-Ready
 
 
-### Data Cleaning Transformation
 
 <table>
 <tr>
