@@ -92,23 +92,23 @@ Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactiv
 
 ### **Four Core Questions Investigated**
 
-**![Chapter 1: Business Health Check](#-chapter-1-business-health-check)**  
+**![Chapter 1: Business Health Check](#chapter-1-business-health-check)**  
 *"Is growth real or an illusion?"*  
 → Revenue +5.4%, but volume flat. Growth is ticket-driven, not customer-driven.
 
-**![Chapter 2: The Retention Crisis](#-chapter-2-the-retention-crisis)**  
+**![Chapter 2: The Retention Crisis](#chapter-2-the-retention-crisis)**  
 *"Why do 65% of customers never return?"*  
 → Onboarding failure costs €40-50K annually. But survivors show promise.
 
-**![Chapter 3: Operational Performance](#-chapter-3-operational-performance)**  
+**![Chapter 3: Operational Performance](#chapter-3-operational-performance)**  
 *"Where is the business strongest?"*  
 → Night shift = 47% of revenue. Weekdays drive volume, weekends drive value.
 
-**![Chapter 4: Discount Strategy Analysis](#-chapter-4-discount-strategy-analysis)**  
+**![Chapter 4: Discount Strategy Analysis](#chapter-4-discount-strategy-analysis)**  
 *"Are promotions helping or hurting?"*  
 → Discounts don't increase spend. SXGY promos outperform blanket discounts 3:1.
 
-**[Strategic Implementation Details](#-strategic-recommendations)** 
+**[Strategic Implementation Details](#strategic-recommendations)** 
 → Deep-dive on the 4 recommended actions
 ---
 
