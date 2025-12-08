@@ -165,7 +165,7 @@ Owner can now answer in 2 minutes:
 3. **Visualize clearly** – If stakeholders squint, I failed
 
 **What I'm looking for:**
-- Junior Data Analyst role in Barcelona (or remote EU)
+- Data Analyst role in Barcelona (or remote EU)
 - Companies that value curiosity, clear communication, and data storytelling
 - Teams where I can learn from senior analysts while contributing immediately
 
