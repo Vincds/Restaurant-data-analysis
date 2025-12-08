@@ -1,7 +1,6 @@
 # 🍽️ Restaurant Delivery Analytics
 **Turning 4,184 messy orders into €25K+ actionable insights**
 
-[Screenshot: Tableau dashboard showing 65% churn + €11.7K margin leak]
 
 ---
 
@@ -24,7 +23,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 ## 🎯 Quick Navigation
 
 **Want the headline?** → [3-minute Executive Summary](02_sales_intelligence_analysis/README.md#executive-summary)  
-**Visual person?** → [Live Tableau Dashboard](https://public.tableau.com/...)  
+**Visual person?** → [Live Tableau Dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)  
 **Technical reviewer?** → [SQL queries](02_sales_intelligence_analysis/SQL/) + [Python parser](01_data_cleaning_pipeline/Python/)  
 **Hiring manager?** → Keep reading (2 more minutes)
 
@@ -33,7 +32,34 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 ## 📊 The Three Projects
 
 ### 1️⃣ Data Cleaning Pipeline: Messy → Analysis-Ready
-[Before/After Screenshot]
+## 📸 Visual Proof
+
+### Data Cleaning Transformation
+
+<table>
+<tr>
+<td width="50%">
+
+**Before: Messy Product Text**
+
+<img src="01_data_cleaning_pipeline/screenshots/orders_with_products_text.png" alt="Unstructured products" />
+
+*All items concatenated in one cell with modifiers and packs*
+
+</td>
+<td width="50%">
+
+**After: Clean Tabular Format**
+
+<img src="01_data_cleaning_pipeline/screenshots/clean_products.png" alt="Parsed products" />
+
+*One product per row with quantities extracted*
+
+</td>
+</tr>
+</table>
+
+
 
 **The Mess:**
 - All products in one unstructured text field: `"1x PACK PARA 2: 1x Tikka*, 2x Coke..."`
@@ -55,7 +81,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 ---
 
 ### 2️⃣ SQL Analysis: €25K Opportunity Uncovered
-[Chart: Retention cascade showing 65% → 35% → 21% drop]
+![Customer Retantion Funnel](02_sales_intelligence_analysis\screenshots\customer_retention_funnel.png)
 
 **The Investigation:**
 - 19 SQL queries exploring retention, discounting, operations
@@ -77,7 +103,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 ---
 
 ### 3️⃣ Tableau Dashboard: Self-Service Analytics
-[Dashboard screenshot: Sales + Customer views]
+![](03_interactive_bi_dashboard\screenshots\sales_dashboard.png)
 
 **The Need:**
 Last App's native reporting = total sales + order count only. No trends, no segmentation, no retention metrics.
