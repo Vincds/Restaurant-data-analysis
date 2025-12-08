@@ -64,11 +64,22 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 
  Metric | Value | What It Means |
 |--------|-------|---------------|
-| **Revenue Growth** | +5.4% YoY | Driven by ticket size (+€2.1), not volume (+4 orders) |
-| **First-Order Churn** | 65% | Primary revenue leak—but those who return show 60% retention to order 3 |
-| **New Customer Acquisition** | -24.7% YoY | Lost 255 customers in 2024, shrinking future revenue base |
-| **Discount Rate** | 17.6% | €11.7K above industry benchmark (10-12%) |
-| **Customer Base Health** | 85% inactive/sleeping | Only 15% active/recent—requires immediate intervention |
+| **Revenue Growth** | +5.4% YoY |
+| **First-Order Churn** | 65% |
+| **New Customer Acquisition** | -24.7% YoY |
+| **Discount Rate** | 17.6% |
+| **Customer Base Health** | 85% inactive/sleeping |
+
+### 💰 Financial Impact Summary
+
+| Issue | Annual Cost | Root Cause | Recommended Fix |
+|-------|-------------|------------|-----------------|
+| **First-order churn** | €40,000 lost LTV | Onboarding failure (65% never return) | Milestone loyalty program |
+| **Discount inefficiency** | €11,704 margin erosion | 17.6% rate vs 10% benchmark | SXGY permanent + eliminate weekend blanket discounts |
+| **Dormant customers** | €146,800 inactive LTV | 85% sleeping/inactive | Email/SMS reactivation (5% = €7.4K) |
+| **Acquisition decline** | €10,965 (2024 loss) | -24.7% new customers YoY | Brand trust + retention fixes reduce CAC pressure |
+
+**Total Addressable Opportunity:** €25-30K annually (conservative estimate)
 
 ### **Strategic Recommendations**
 
@@ -84,7 +95,19 @@ Implement a simple milestone program where customers unlock 50% off after comple
 **Reactivate Dormant Customers**
 Launch personalized email and SMS campaigns targeting 1,537 sleeping and inactive customers with time-limited offers (20-25% off). 
 
+---
 
+### 💡 Want the Full Story?
+
+The recommendations above are based on **19 SQL queries** analyzing 4,184 orders across 24 months. For technical reviewers interested in:
+
+- **Methodology:** How we defined retention, calculated LTV, and validated discount impact  
+- **SQL Techniques:** Window functions, cohort analysis, promotional ROI calculations  
+- **Data Quality:** Revenue reconciliation gaps, product parsing limitations, validation steps
+
+→ **Continue to [Detailed Analysis](#Analysis-Structure)** below  
+→ **Jump to [Technical Appendix](#Technical-Appendix)** (SQL queries, metrics glossary)  
+→ **View [Data Model](../01_data_cleaning_pipeline/#data-model)** (ER diagram, table schemas)
 
 ---
 
