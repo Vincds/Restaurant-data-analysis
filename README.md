@@ -76,7 +76,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 - `customers_kpi` table (1,805 customers) with retention status, LTV, frequency
 - 87.5% revenue reconciliation (documented limitations)
 
-→ [See the technical breakdown](01_data_cleaning_pipeline\)
+→ [See the technical breakdown](01_data_cleaning_pipeline/)
 
 ---
 
@@ -122,7 +122,7 @@ Owner can now answer in 2 minutes:
 - "Which promos drive basket size vs just margin erosion?"
 - "How many customers return after first order?"
 
-→ [Explore the live dashboard](https://public.tableau.com/...)
+→ [Explore the live dashboard](https://public.tableau.com/app/profile/vincenzo.di.sario/viz/RestaurantShopDashboard/CustomersDashboard)
 
 ---
 
@@ -154,7 +154,7 @@ Owner can now answer in 2 minutes:
 
 ## 👤 About Me
 
-**Vincenzo Di Sario** | Data Analyst  
+**Vincenzo Di Sario** | Data Analyst | [Portfolio](https://github.com/Vincds/Restaurant-data-analysis) 
 📍 Barcelona, Spain
 
 **I specialize in:** Turning messy business data into executive-ready insights
@@ -170,17 +170,17 @@ Owner can now answer in 2 minutes:
 - Teams where I can learn from senior analysts while contributing immediately
 
 **Tech stack:** SQL, Python (Pandas), Tableau, Power BI, Excel  
-**Currently learning:** dbt, Snowflake, advanced statistical modeling
+**Currently learning:** Improve Python skills, Snowflake, advanced statistical modeling
 
 ---
 
 ## 📧 Let's Connect
 
-💼 **[LinkedIn](www.linkedin.com/in/vdisario)**  
+💼 **[LinkedIn](https://www.linkedin.com/in/vdisario)**
 📧 **[vin.disario@gmail.com](mailto:vin.disario@gmail.com)**  
 📊 **[Tableau Public Profile](https://public.tableau.com/app/profile/vincenzo.di.sario)**
 
-**Open to:** Full-time junior analyst roles, contract projects, portfolio feedback
+**Open to:** Full-time data analyst roles, contract projects, portfolio feedback
 
 ---
 
@@ -188,10 +188,6 @@ Owner can now answer in 2 minutes:
 
 **Data Privacy:** All customer data anonymized. Sample datasets for demonstration only.
 
-**Want to replicate this analysis?**
-1. Start with [Data Cleaning Pipeline](01_data_cleaning_pipeline/) (setup instructions)
-2. Review [SQL queries](02_sales_intelligence_analysis/SQL/) (copy-paste ready)
-3. Download [Tableau workbook](03_interactive_bi_dashboard/) (pre-connected to sample data)
 
 **Feedback welcome!** If you spot analytical gaps, data quality issues, or have suggestions for improvement, please reach out. I'm always learning.
 
