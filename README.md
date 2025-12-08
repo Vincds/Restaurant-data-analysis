@@ -38,7 +38,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 
 <table>
 <tr>
-<td width="50%">
+<td width="60%">
 
 **Before: Messy Product Text**
 
@@ -47,7 +47,7 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 *All items concatenated in one cell with modifiers and packs*
 
 </td>
-<td width="50%">
+<td width="40%">
 
 **After: Clean Tabular Format**
 
@@ -76,12 +76,12 @@ A Barcelona restaurant was **losing €40K annually** to first-order churn (65% 
 - `customers_kpi` table (1,805 customers) with retention status, LTV, frequency
 - 87.5% revenue reconciliation (documented limitations)
 
-→ [See the technical breakdown](01_data_cleaning_pipeline/)
+→ [See the technical breakdown](..\01_data_cleaning_pipeline\)
 
 ---
 
 ### 2️⃣ SQL Analysis: €25K Opportunity Uncovered
-![Customer Retantion Funnel](02_sales_intelligence_analysis\screenshots\customer_retention_funnel.png)
+![](02_sales_intelligence_analysis\screenshots\customer_retention_funnel.png)
 
 **The Investigation:**
 - 19 SQL queries exploring retention, discounting, operations
