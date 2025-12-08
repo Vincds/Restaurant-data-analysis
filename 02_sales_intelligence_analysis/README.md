@@ -62,15 +62,14 @@ Assessing promotional ROI across different discount types (percentage-based, BOG
 - Revenue mix shifted from 51% new/49% returning (2023) to 36% new/64% returning (2024), creating **future revenue risk** as smaller 2024 cohort matures
 - August 2024 crashed -42.5% YoY due to structural seasonality weakness combined with ineffective promotional strategy
 
- Metric | Value |
-|--------|-------|
-| **Revenue Growth** | +5.4% YoY |
-| **First-Order Churn** | 65% |
-| **New Customer Acquisition** | -24.7% YoY |
-| **Discount Rate** | 17.6% |
-| **Customer Base Health** | 85% inactive/sleeping |
+| Metric | Value | What It Means |
+|--------|-------|---------------|
+| **Revenue Growth** | +5.4% YoY | Driven by ticket size (+€2.1), not volume (+4 orders) |
+| **First-Order Churn** | 65% | Primary revenue leak—but those who return show 60% retention to order 3 |
+| **New Customer Acquisition** | -24.7% YoY | Lost 255 customers in 2024, shrinking future revenue base |
+| **Discount Rate** | 17.6% | €11.7K above industry benchmark (10-12%) |
+| **Customer Base Health** | 85% inactive/sleeping | Only 15% active/recent—requires immediate intervention |
 
-**Implication:** Growth depends entirely on pricing power, which plateaus. Without volume growth, one weak quarter erases gains. (See Executive Summary for strategic impact.)
 
 ### 💰 Financial Impact Summary
 
