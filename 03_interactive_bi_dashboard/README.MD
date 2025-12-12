@@ -41,7 +41,7 @@ The dashboard provides two complementary views accessible via navigation toggle.
 - **Dynamic metric selector** - Switch between Sales, Orders, Avg Ticket, or Avg Discount on the trend chart and heatmap to avoid visual clutter
 - **Sales monthly trend** - Spot seasonal patterns and growth trajectory
 - **Day × Hour heatmap** - Identify peak business periods at a glance (darker blue = higher performance)
-- **Promo performance table** - Compare ROI of monthly campaigns (usage %, revenue impact, avg ticket)
+- **Weekday Sales & AOV** - Revenue and average ticket by day of week (Sunday peak, Wednesday tactical opportunity)
 - **Order value distribution** - Understand customer spending patterns (histogram in €5 bins)
 - **Product ranking** - Category-level revenue contribution with quantities sold
 
