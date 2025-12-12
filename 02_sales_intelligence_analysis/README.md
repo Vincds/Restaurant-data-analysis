@@ -168,15 +168,11 @@ The year started strong with consistent outperformance through June:
 
 This shift from consistent growth to decline mid-year signals a fundamental change in business dynamics that requires investigation.
 
-**Best Months:**
+**Best Month:**
 - April 2024: €9,687 (+35.3% YoY) ⭐
-- March 2024: €8,815 (+34.0% YoY)
-- February 2024: €8,136 (+34.7% YoY)
-- January 2024: €8,835 (+32.4% YoY)
 
-**Worst Months:**
+**Worst Month:**
 - August 2024: €3,251 (-42.5% YoY) 🔴
-- July 2024: €5,234 (-24.4% YoY)
 
 ![2023 vs 2024 Sales](screenshots/2023_vs_2024_sales.png)
 
