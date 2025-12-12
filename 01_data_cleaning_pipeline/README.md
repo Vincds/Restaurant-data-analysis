@@ -438,7 +438,12 @@ See detailed documentation in each folder:
 
 ---
 
-**Next in series:** 
+## 📦 Project Context
 
-**Part 2:** [Sales Intelligence Analysis](../02_sales_intelligence_analysis/) 
-**Part 3:** [Tableau Dashboard](../03_interactive_bi_dashboard/) 
+1. **[Data Cleaning & Transformation](../01_data_cleaning_pipeline/)** (Excel + Python + SQL)  ← **You are here** 
+
+2. **[Sales Intelligence Analysis](../02_sales_intelligence_analysis/)** (SQL + Power BI)  
+   Exploratory analysis highlighting key business insights and recommendations
+
+3. **[Interactive Dashboard](../03_interactive_bi_dashboard)** (Tableau)  
+   Self-service analytics tool for ongoing performance monitoring
