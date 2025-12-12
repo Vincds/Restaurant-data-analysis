@@ -438,6 +438,7 @@ See detailed documentation in each folder:
 
 ---
 
-**Next in series:**  
-→ [Project 2: SQL + Power BI Insights Dashboard]  
-→ [Project 3: Tableau Customer Analytics]
+**Next in series:** 
+
+**Part 2:** [Sales Intelligence Analysis](../02_sales_intelligence_analysis/) 
+**Part 3:** [Tableau Dashboard](../03_interactive_bi_dashboard/) 
